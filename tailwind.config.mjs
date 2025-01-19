@@ -7,9 +7,9 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        heading: ["Londrina Solid", "serif"],
+        text: ["Roboto", "sans-serif"],
       },
     },
   },
