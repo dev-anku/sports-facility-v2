@@ -117,3 +117,62 @@ export const contactData = [
     value: "529/50, Rahim Nagar Rd, Mahanagar, Lucknow, Uttar Pradesh 226006",
   },
 ];
+
+export const ProjectsContent = [
+  {
+    image: "/assets/images/image1.jpg",
+    type: "Basketball Court",
+    title: "Project 1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
+  },
+  {
+    image: "/assets/images/image1.jpg",
+    type: "Basketball Court",
+    title: "Project 2",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
+  },
+  {
+    image: "/assets/images/image1.jpg",
+    type: "Basketball Court",
+    title: "Project 3",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
+  },
+  {
+    image: "/assets/images/image1.jpg",
+    type: "Basketball Court",
+    title: "Project 4",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
+  },
+  {
+    image: "/assets/images/image1.jpg",
+    type: "Basketball Court",
+    title: "Project 5",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
+  },
+  {
+    image: "/assets/images/image1.jpg",
+    type: "Basketball Court",
+    title: "Project 6",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
+  },
+  {
+    image: "/assets/images/image1.jpg",
+    type: "Basketball Court",
+    title: "Project 7",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
+  },
+  {
+    image: "/assets/images/image1.jpg",
+    type: "Basketball Court",
+    title: "Project 8",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
+  },
+]
