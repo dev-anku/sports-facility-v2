@@ -175,4 +175,33 @@ export const ProjectsContent = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae dolorum ipsum odit ducimus suscipit quibusdam ipsa similique optio tempore nobis animi minima, molestiae reiciendis iure voluptates sint vitae nulla? ",
   },
+];
+
+export const servicesPageContent = [
+  {
+    image: "",
+    title: "Court Installation",
+    description:
+      "We provide complete court installation, handling everything from site preparation to final surface finishing. Our team ensures precision, durability, and a smooth playing surface tailored to your sport. With high-quality materials and expert craftsmanship, we deliver courts that meet professional standards.",
+  },
+  {
+    image: "",
+    title: "Surface Resurfacing",
+    description:
+      "Revitalize your sports surfaces with our expert resurfacing services. We repair cracks, level the surface, and apply premium coatings to restore grip, durability, and aesthetics. Whether for tennis, basketball, or multi-sport courts, our process enhances performance and extends lifespan.",
+  },
+  {
+    image: "",
+    title: "Maintenance & Repairs",
+    description:
+      "Keep your courts in peak condition with our maintenance and repair solutions. We fix cracks, fading, and surface wear, ensuring safety, longevity, and optimal playability. Our regular upkeep services help prevent major damages, preserving the quality and appearance of your court.",
+  },
+];
+
+export const productsImages = [
+  "/assets/images/5LayersyntheticSystem.png",
+  "/assets/images/8LayersyntheticSystem.png",
+  "/assets/images/WoodenFlooring.png",
+  "/assets/images/EPDMFlooring.png",
+  "/assets/images/EPDMFlooring2.png",
 ]
