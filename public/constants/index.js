@@ -146,105 +146,105 @@ export const contactData = [
 
 export const ProjectsContent = [
   {
-    image: "/assets/images/projects/project1.jpg",
+    image: "/assets/images/projects/project1.webp",
     type: "Basketball Court & Badminton Court",
     title: "Ajmani International School, Lakhimpur Kheri",
     description:
       "One of our most loved projects at Ajmani International Lakhimpur School features two basketball courts and one badminton court, constructed using the highest quality materials.",
   },
   {
-    image: "/assets/images/projects/project2.png",
+    image: "/assets/images/projects/project2.webp",
     type: "Basketball Court & Tennis Court",
     title: "Limited Space Area",
     description:
       "A multipurpose court that combines a tennis court and a basketball court is the best solution when space is limited. It is commonly used in schools where space is scarce.",
   },
   {
-    image: "/assets/images/projects/project3.png",
+    image: "/assets/images/projects/project3.webp",
     type: "Badminton Court",
     title: "Bhinga Stadium, Sharavasti",
     description:
       "Our premium teak wooden badminton court featuring high-quality vinyl flooring was constructed at Bhinga Stadium, Sharavasti, exemplifying our commitment to top-class quality.",
   },
   {
-    image: "/assets/images/projects/project4.png",
+    image: "/assets/images/projects/project4.webp",
     type: "Pickleball Court",
     title: "Gomti Nagar, Lucknow",
     description:
       "Pickleball is one of the fastest-growing sports, and we have proudly constructed numerous courts. Our project in Gomti Nagar, Lucknow, showcases our commitment to quality and innovation.",
   },
   {
-    image: "/assets/images/projects/project5.png",
+    image: "/assets/images/projects/project5.webp",
     type: "Badminton Court",
     title: "CPMG Office, Lucknow",
     description:
       "CPMG Office, Lucknow has chosen us to build a state-of-the-art badminton court, ensuring top-quality construction and a perfect playing experience.",
   },
   {
-    image: "/assets/images/projects/project6.png",
+    image: "/assets/images/projects/project6.webp",
     type: "Walking Track",
     title: "Loreto School, Lucknow",
     description:
       "We have expertly designed and constructed a top-quality walking track near Loreto School, Lucknow, ensuring durability, safety, and a superior walking experience for all users.",
   },
   {
-    image: "/assets/images/projects/project7.png",
+    image: "/assets/images/projects/project7.webp",
     type: "Volleyball Court",
     title: "KD Singh Babu Stadium, Lucknow",
     description:
       "KD Singh Babu Stadium, Lucknow's most renowned sports venue, now features a high-quality volleyball court constructed by us, designed for professional and recreational play.",
   },
   {
-    image: "/assets/images/projects/project8.png",
+    image: "/assets/images/projects/project8.webp",
     type: "Pickleball Court",
     title: "Bhopal",
     description:
       "We have expertly crafted a superior Pickleball court in Bhopal, offering a resilient, tournament-grade surface for players of all levels.",
   },
   {
-    image: "/assets/images/projects/project9.png",
+    image: "/assets/images/projects/project9.webp",
     type: "Tennis Court",
     title: "Bhinga Stadium, Shravasti",
     description:
       "Bhinga Stadium, Shravasti, we have built a world-class tennis court, meeting international standards.",
   },
   {
-    image: "/assets/images/projects/project10.png",
+    image: "/assets/images/projects/project10.webp",
     type: "Basketball Court & Badminton Court",
     title: "Skylark School, Lucknow",
     description:
       "We are proud to have designed and constructed a high-quality half-basketball court and a professional-grade badminton court at Skylark School, Lucknow. Built with precision and durable materials, these courts provide students with a safe, reliable, and enjoyable sports experience, enhancing their athletic development.",
   },
   {
-    image: "/assets/images/projects/project11.png",
+    image: "/assets/images/projects/project11.webp",
     type: "Tennis Court",
     title: "Delhi",
     description:
       "Constructing a clay court is a highly specialized and challenging task that requires expertise and precision. We are proud to have successfully built a top-quality clay court in Delhi",
   },
   {
-    image: "/assets/images/projects/project12.png",
+    image: "/assets/images/projects/project12.webp",
     type: "Pickleball Court",
     title: "Indira Nagar, Lucknow",
     description:
       "We have skillfully designed and built a top-quality rooftop Pickleball court in Indira Nagar, Lucknow, making the most of limited space while maintaining exceptional standards. If you're facing space constraints, get in touch with us—we can create a custom Pickleball court wherever you need it.",
   },
   {
-    image: "/assets/images/projects/project13.png",
+    image: "/assets/images/projects/project13.webp",
     type: "Pickleball Court",
     title: "Alpha School",
     description:
       "Enjoy a game of pickleball on the well-maintained courts at Alpha School. Whether you're a beginner or an experienced player, this space is perfect for casual rallies, competitive matches, and community fun. Grab your paddle and join in the excitement.",
   },
   {
-    image: "/assets/images/projects/project14.png",
+    image: "/assets/images/projects/project14.webp",
     type: "Skating Track",
     title: "Raj Bhawan, Lucknow",
     description:
       "Raj Bhawan, Lucknow, we have crafted a dynamic and colorful skating track, offering a seamless and exhilarating experience for skaters.",
   },
   {
-    image: "/assets/images/projects/project15.png",
+    image: "/assets/images/projects/project15.webp",
     type: "Pickleball Court",
     title: "Centrum Club, Lucknow",
     description:
