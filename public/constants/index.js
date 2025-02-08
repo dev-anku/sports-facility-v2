@@ -19,6 +19,13 @@ export const images = [
   "/assets/images/image11.png",
 ];
 
+export const galleryImages = [
+  "/assets/images/image1.jpg",
+  "/assets/images/image3.jpg",
+  "/assets/images/image4.png",
+  "/assets/images/image5.jpg",
+];
+
 export const aboutImages = [images[0], images[1], images[2]];
 
 export const serviceImages = [images[3], images[4], images[7]];
@@ -105,24 +112,6 @@ export const sportsContent = [
     image: "/assets/images/sports/pickle_ball.png",
     title: "Pickle Ball Court",
   },
-];
-
-export const galleryImages = [
-  "/assets/images/projects/project1.jpg",
-  "/assets/images/projects/project2.png",
-  "/assets/images/projects/project3.png",
-  "/assets/images/projects/project4.png",
-  "/assets/images/projects/project5.png",
-  "/assets/images/projects/project6.png",
-  "/assets/images/projects/project7.png",
-  "/assets/images/projects/project8.png",
-  "/assets/images/projects/project9.png",
-  "/assets/images/projects/project10.png",
-  "/assets/images/projects/project11.png",
-  "/assets/images/projects/project12.png",
-  "/assets/images/projects/project13.png",
-  "/assets/images/projects/project14.png",
-  "/assets/images/projects/project15.png",
 ];
 
 export const contactData = [

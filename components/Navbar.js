@@ -78,7 +78,7 @@ const Navbar = () => {
             </button>
           </li>
           <li>
-            <a href="tel:+917018349322" className="sm:hidden">
+            <a href="tel:+918009483311" className="sm:hidden">
               <Button label={"Call Now"} />
             </a>
           </li>

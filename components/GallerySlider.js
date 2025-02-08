@@ -17,6 +17,7 @@ const GallerySlider = ({ images, index }) => {
               height={960}
               src={imageURL}
               alt={imageURL}
+              className="object-cover h-full"
             />
           );
         })}

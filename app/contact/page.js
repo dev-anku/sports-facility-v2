@@ -1,4 +1,6 @@
 import { contactData, images, sampleImages } from "@/public/constants";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const HeroSection = () => {
@@ -33,6 +35,38 @@ const ContactSection = () => {
           here to help! Reach out to us for inquiries, project consultations, or
           collaborations. Let&apos;s build the perfect sports facility together
         </p>
+        <div className="mt-3 flex gap-4 justify-center xl:justify-start">
+          <a href="tel:+918009483311" className="h-8 w-8">
+            <Image
+              src="/assets/icons/call.png"
+              width={200}
+              height={200}
+              alt="phone"
+              className="h-full w-full object-cover"
+            />
+          </a>
+          <a href="mailto:ridhamteam125@gmail.com" className="h-8 w-8">
+            <Image
+              src="/assets/icons/email.png"
+              width={200}
+              height={200}
+              alt="mail"
+              className="h-full w-full object-cover"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/sports_facility.in/"
+            className="h-8 w-8"
+          >
+            <Image
+              src="/assets/icons/instagram.png"
+              width={200}
+              height={200}
+              alt="instagram"
+              className="h-full w-full object-cover"
+            />
+          </a>
+        </div>
       </div>
       <div className="flex flex-col gap-4 bg-gray-100 p-4 py-8 xl:w-3/5">
         <h1 className="font-text text-3xl font-bold uppercase">

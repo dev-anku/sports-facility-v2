@@ -10,10 +10,10 @@ import {
   servicesContent,
   productsContent,
   sportsContent,
-  galleryImages,
   aboutImages,
   serviceImages,
   productImages,
+  galleryImages,
 } from "@/public/constants";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
@@ -67,18 +67,23 @@ const AboutSection = () => {
       >
         <h1 className="font-heading text-6xl uppercase">About Us</h1>
         <p className="font-text leading-normal">
-          <strong>Sports Facility</strong> Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Saepe exercitationem repellendus vero
-          perspiciatis consequatur non vitae totam. Facere dolor, ullam itaque
-          tenetur illo reiciendis nostrum error nemo voluptatibus veniam
-          asperiores!
+          At <strong>Sports Facility</strong> we are dedicated to building high-quality sports
+          facilities that inspire athletes and communities. With years of
+          expertise in sports construction, we specialize in designing and
+          constructing top-tier courts, fields, and recreational spaces tailored
+          to meet the needs of professionals, schools, and recreational players
+          alike.
         </p>
         <p className="font-text leading-normal">
-          <strong>Ridham Enterprises</strong> Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Saepe exercitationem repellendus vero
-          perspiciatis consequatur non vitae totam. Facere dolor, ullam itaque
-          tenetur illo reiciendis nostrum error nemo voluptatibus veniam
-          asperiores!
+          Our team combines innovation, precision, and industry-leading
+          materials to deliver durable, high-performance sports infrastructure.
+          Whether it&apos;s pickleball courts, tennis courts, basketball courts,
+          running tracks, or multi-sport facilities, we bring your vision to
+          life with superior craftsmanship and attention to detail.
+        </p>
+        <p className="font-text leading-normal">
+          Let’s build something extraordinary together. Contact us today to
+          start your project!
         </p>
         <Link target="_blank" href="/about">
           <Button label={"Know More"} />
