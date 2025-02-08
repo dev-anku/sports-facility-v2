@@ -1,4 +1,4 @@
-import { sampleImages, sportsContent } from "@/public/constants";
+import { images, sampleImages, sportsContent } from "@/public/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div
         className="flex h-[55vh] items-center justify-center overflow-hidden object-fill xl:h-[60vh]"
         style={{
-          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${sampleImages[0]})`,
+          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${images[1]})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

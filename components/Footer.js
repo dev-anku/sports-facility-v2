@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/assets/icons/logo.png";
-import { contactData, navLinks, sampleImages } from "@/public/constants";
+import {
+  contactData,
+  images,
+  navLinks,
+  sampleImages,
+} from "@/public/constants";
 import React from "react";
 import Button from "./ui/Button";
 
@@ -11,8 +16,8 @@ const Footer = () => {
       <div
         className="flex flex-col items-center justify-center gap-8 py-24 text-center text-white"
         style={{
-          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${sampleImages[0]})`,
-          backgroundPosition: "center",
+          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${images[4]})`,
+          backgroundPosition: "center 60%",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}

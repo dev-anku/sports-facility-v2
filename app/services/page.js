@@ -1,4 +1,5 @@
 import {
+  images,
   productsImages,
   sampleImages,
   servicesPageContent,
@@ -12,7 +13,7 @@ const HeroSection = () => {
       <div
         className="flex h-[55vh] items-center justify-center overflow-hidden object-fill xl:h-[60vh]"
         style={{
-          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${sampleImages[0]})`,
+          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${images[2]})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -39,13 +40,15 @@ const ServicesSection = () => {
             style={{ top: `${index * 50}px` }}
             key={service.title}
           >
-            <Image
-              src="https://placehold.co/400x500"
-              alt={service.title}
-              width={1920}
-              height={1080}
-              className="h-full object-cover"
-            />
+            <div className="h-[50vh]">
+              <Image
+                src={service.image}
+                alt={service.title}
+                width={1920}
+                height={1080}
+                className="h-full object-cover"
+              />
+            </div>
             <h1 className="font-text text-3xl">{service.title}</h1>
             <p className="px-4 pb-4 font-text leading-normal text-gray-600">
               {service.description}
@@ -125,38 +128,27 @@ const ProductsSection = () => {
           </div>
           <div className="flex flex-col gap-8 xl:w-[30%]">
             <p className="font-text text-gray-700">
-              <strong className="text-xl text-black">Surface Board</strong>
-              <br />
-              MAPLE WOOD SPORTS FLOORING finishing with 21mm thick, 53 to 93 mm
-              wide and in random length in tongue and groove shape. The edges of
-              the boards should have finger lock groove and the bottom side with
-              air pass groove.
+              At Sports Facility, we take pride in developing the best wooden
+              courts with superior-quality wooden flooring, designed to meet
+              international standards. Our expertise extends across India,
+              providing durable, high-performance flooring solutions for sports
+              arenas, academies, and institutions.
             </p>
             <p className="font-text text-gray-700">
-              <strong className="text-xl text-black">The Under Frame</strong>
-              <br />
-              Made of pine wood runners of 70mmx45mm, treated with anti-termite
-              solution and fixed on the bottom side with 10/19mm thick Rubber
-              air cushioned pads, stappled through the two wings at 300mmx300mm.
-              Installation - IPS subfloor treated with a vapour barrier to be
-              placed on the leveled IPS sub floor before laying the under frame.
-              the runners having air cushion pads to be placed on the vapour
-              barrier in perfect level at 350mm in 1 direction.
+              We offer three types of premium wooden flooring: Teak Wood, Maple
+              Wood, and Hevea, each carefully selected for its durability,
+              performance, and aesthetic appeal. To ensure the longevity of our
+              wooden courts, we also provide anti-termite treatment, protecting
+              the wood from damage and ensuring it remains strong and
+              long-lasting.
             </p>
           </div>
           <div className="xl:w-[30%]">
-            <p className="font-text text-gray-700">
-              <strong className="text-xl text-black">Finish</strong>
-              <br />
-              The surface board to be screwed to the runner through the tongue
-              only and will lock the screwed tongue by the groove of adjoining
-              board. ends of the boards will be locked by inserting the wooden
-              fingers through the edge grooves and fixed with suitable adhesive.
-              an expansion of 15 to 20 mm to be left open between the wooden
-              flooring the surrounding tiled area / walls. finishing - After
-              installation the floor will be machine sanded in uniform level and
-              finishing with P.U. POLISHING water based polyurethane lacquer.
-            </p>
+            With a commitment to excellence and precision, we guarantee that
+            every court we build enhances gameplay, safety, and durability.
+            Whether for basketball, badminton, or multi-sport use, our wooden
+            flooring is trusted by professionals and enthusiasts alike, making
+            us a leading name in sports infrastructure across the country.
           </div>
         </div>
         <div className="flex flex-col gap-8 xl:flex-row">
@@ -184,23 +176,35 @@ const ProductsSection = () => {
           </div>
           <div className="xl:w-[30%]">
             <p className="font-text text-gray-700 xl:mt-16">
-              For those looking to paint their floors in vivid colours, PlaySafe
-              Premium offers a solution mix of organic and inorganic dyes, that
-              speaks colours. The product offers a chance for architects and
-              designers to mix and match the colour of the playground with the
-              main theme. Based on EPDM technology, this flooring comes with
-              fresh and permanent colours that do not fade away with either time
-              or use.
+              We prioritize the safety and enjoyment of children with our
+              premium EPDM (Ethylene Propylene Diene Monomer) flooring. Designed
+              specifically for kid&apos;s play areas, EPDM flooring provides a
+              soft, impact-resistant, and slip-proof surface, ensuring a secure
+              and fun environment for children of all ages.
+              <br />
+              <br />
+              At Halwasiya, we ensure high-quality installation using premium
+              materials to create a safe and engaging space for children. Give
+              your little ones the freedom to play, explore, and grow without
+              worries!
             </p>
           </div>
           <div className="xl:w-[30%]">
             <p className="font-text text-gray-700 xl:mt-16">
-              EPDM or Ethylene Propylene Diene Monomer is an organic synthetic
-              elastomer which has many properties equivalent to or better than
-              those of natural virgin rubber, after curing. During the
-              production of the elastomer, several additives are used to enhance
-              colours and their stability. This assures that the colours are
-              durable, flexible and can also stand the test of weather and time.
+              <strong>Why Choose EPDM Flooring for Kids?</strong> <br />✅ Shock
+              Absorption – Reduces the risk of injuries from falls <br />✅
+              Non-Slip Surface – Enhances safety during playtime <br />✅
+              Durable & Weather-Resistant – Withstands heavy foot traffic and
+              outdoor conditions <br />✅ Vibrant Colors & Custom Designs –
+              Create engaging and playful themes <br />✅ Low Maintenance &
+              Eco-Friendly – Easy to clean and made from sustainable materials{" "}
+              <br />
+              <br />
+              Perfect for Various Play Areas <br />
+              ✔️ Schools & Kindergartens <br />
+              ✔️ Parks & Playgrounds <br />
+              ✔️ Indoor Play Zones <br />
+              ✔️ Residential Play Areas
             </p>
           </div>
         </div>

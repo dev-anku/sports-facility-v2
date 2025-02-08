@@ -1,4 +1,4 @@
-import { contactData, sampleImages } from "@/public/constants";
+import { contactData, images, sampleImages } from "@/public/constants";
 import React from "react";
 
 const HeroSection = () => {
@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div
         className="flex h-[55vh] items-center justify-center overflow-hidden object-fill xl:h-[60vh]"
         style={{
-          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${sampleImages[0]})`,
+          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${images[8]})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

@@ -5,11 +5,15 @@ import AOS from "aos";
 import BackgroundImageSlider from "@/components/BackgroundImageSlider";
 import React, { useEffect, useState } from "react";
 import {
+  images,
   sampleImages,
   servicesContent,
   productsContent,
   sportsContent,
   galleryImages,
+  aboutImages,
+  serviceImages,
+  productImages,
 } from "@/public/constants";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
@@ -21,11 +25,11 @@ const HeroSection = () => {
     <header className="mx-6 flex flex-col xl:mx-12">
       <div className="h-[55vh] overflow-hidden object-fill xl:h-[60vh]">
         <Image
-          src={sampleImages[0]}
+          src="/assets/images/hero.jpg"
           width={1920}
           height={1080}
           alt="hero"
-          className="object-cover max-xl:h-full"
+          className="object-[50% 50%] center object-cover max-xl:h-full"
         />
       </div>
       <div className="my-6 flex flex-col gap-1 xl:items-center">
@@ -55,7 +59,7 @@ const AboutSection = () => {
         data-aos="fade-right"
         className="relative h-96 overflow-hidden xl:h-auto xl:w-3/5"
       >
-        <BackgroundImageSlider images={sampleImages} />
+        <BackgroundImageSlider images={aboutImages} />
       </div>
       <div
         data-aos="fade-left"
@@ -91,7 +95,12 @@ const SportsSection = () => {
       <div className="scroll relative h-[400px] max-xl:overflow-x-scroll xl:overflow-x-hidden xl:hover:overflow-x-scroll">
         <div className="flex w-fit gap-4 px-8">
           {sportsContent.map((sport, index) => (
-            <div data-aos="fade-up" data-aos-duration={(index + 1) * 200} key={sport.title} className="relative h-96 w-80 xl:w-[33vw]">
+            <div
+              data-aos="fade-up"
+              data-aos-duration={(index + 1) * 200}
+              key={sport.title}
+              className="relative h-96 w-80 xl:w-[33vw]"
+            >
               <Image
                 src={sport.image}
                 width={1920}
@@ -117,7 +126,7 @@ const ServicesSection = () => {
         data-aos="fade-right"
         className="relative flex h-[650px] overflow-hidden xl:h-auto xl:w-[55%]"
       >
-        <BackgroundImageSlider images={sampleImages} overlay={true} />
+        <BackgroundImageSlider images={serviceImages} overlay={true} />
         <div className="flex flex-col gap-8 px-8 pt-16 text-white sm:px-20 sm:py-20 xl:items-start">
           <h1 className="font-heading text-6xl uppercase">Services</h1>
           <p className="font-text leading-relaxed xl:w-[85%]">
@@ -161,7 +170,7 @@ const ProductsSection = () => {
         data-aos="fade-left"
         className="relative flex h-[650px] overflow-hidden xl:h-auto xl:w-[55%]"
       >
-        <BackgroundImageSlider images={sampleImages} overlay={true} />
+        <BackgroundImageSlider images={productImages} overlay={true} />
         <div className="flex flex-col gap-8 px-8 pt-16 text-white sm:px-20 sm:py-20 xl:items-start">
           <h1 className="font-heading text-6xl uppercase">Products</h1>
           <p className="font-text leading-relaxed xl:w-[85%]">
@@ -213,7 +222,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="flex flex-col xl:mt-20 xl:flex-row-reverse"
+      className="flex max-h-[80vh] flex-col overflow-hidden xl:mt-20 xl:flex-row-reverse"
     >
       <div
         data-aos="fade-left"
