@@ -3,8 +3,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Sports Facility",
-  description: "Elevate Your Game with World-Class Court Surfaces",
+  title: "Sports Flooring & Court Surfacing | Sports Facility Lucknow",
+  description:
+    "Discover premium sports flooring and court surfacing solutions, including EPDM Flooring, synthetic flooring, and wooden courts and wooden flooring.",
   icons: {
     icon: "/assets/icons/logo.png",
   },
