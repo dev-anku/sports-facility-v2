@@ -45,6 +45,11 @@ export const sampleImages = [
 
 export const productsContent = [
   {
+    title: "Wooden Sports Flooring",
+    description:
+      "Premium wooden courts ideal for indoor sports such as badminton, squash, and basketball. Our maple wood surfaces are crafted to offer the best in performance and aesthetics.",
+  },
+  {
     title: "EPDM Flooring",
     description:
       "A vibrant and long-lasting surface perfect for playgrounds, jogging tracks, and multipurpose courts. Our EPDM flooring offers excellent durability, slip resistance, and UV stability.",
@@ -53,11 +58,6 @@ export const productsContent = [
     title: "Synthetic Courts",
     description:
       "High-performance synthetic surfaces designed for sports like tennis, basketball, and badminton. Our courts provide superior cushioning, weather resistance, and low maintenance.",
-  },
-  {
-    title: "Wooden Sports Flooring",
-    description:
-      "Premium wooden courts ideal for indoor sports such as badminton, squash, and basketball. Our maple wood surfaces are crafted to offer the best in performance and aesthetics.",
   },
 ];
 
@@ -80,6 +80,18 @@ export const servicesContent = [
 ];
 
 export const sportsContent = [
+  {
+    image: "/assets/images/flooring/woodenFlooring.jpg",
+    title: "Wooden Flooring",
+  },
+  {
+    image: "/assets/images/flooring/epdmFlooring.png",
+    title: "EPDM Flooring",
+  },
+  {
+    image: "/assets/images/flooring/syntheticFlooring.png",
+    title: "Synthetic Flooring",
+  },
   {
     image: "/assets/images/sports/tennis.jpg",
     title: "Tennis Court",

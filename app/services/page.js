@@ -66,6 +66,47 @@ const ProductsSection = () => {
       <h1 className="text-center font-heading text-[2.5rem] uppercase xl:text-6xl">
         Products That We Offer
       </h1>
+      <div className="flex flex-col gap-8 xl:flex-row">
+        <div className="xl:w-[40%]">
+          <h1 className="font-text text-3xl font-semibold">
+            <span className="mr-2 border-b-[5px] border-l-[10px] border-t-[5px] border-black border-b-transparent border-t-transparent"></span>{" "}
+            Wooden Flooring
+          </h1>
+          <div className="my-8">
+            <Image
+              src={productsImages[2]}
+              alt="Wooden Flooring"
+              width={1920}
+              height={1080}
+              className="h-full object-cover"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col gap-8 xl:w-[30%]">
+          <p className="font-text text-gray-700">
+            At Sports Facility, we take pride in developing the best wooden
+            courts with superior-quality wooden flooring, designed to meet
+            international standards. Our expertise extends across India,
+            providing durable, high-performance flooring solutions for sports
+            arenas, academies, and institutions.
+          </p>
+          <p className="font-text text-gray-700">
+            We offer three types of premium wooden flooring: Teak Wood, Maple
+            Wood, and Hevea, each carefully selected for its durability,
+            performance, and aesthetic appeal. To ensure the longevity of our
+            wooden courts, we also provide anti-termite treatment, protecting
+            the wood from damage and ensuring it remains strong and
+            long-lasting.
+          </p>
+        </div>
+        <div className="xl:w-[30%]">
+          With a commitment to excellence and precision, we guarantee that every
+          court we build enhances gameplay, safety, and durability. Whether for
+          basketball, badminton, or multi-sport use, our wooden flooring is
+          trusted by professionals and enthusiasts alike, making us a leading
+          name in sports infrastructure across the country.
+        </div>
+      </div>
       <div className="flex flex-col gap-20">
         <div className="flex flex-col gap-8 xl:flex-row">
           <div>
@@ -108,47 +149,6 @@ const ProductsSection = () => {
                 className="h-full object-cover"
               />
             </div>
-          </div>
-        </div>
-        <div className="flex flex-col gap-8 xl:flex-row">
-          <div className="xl:w-[40%]">
-            <h1 className="font-text text-3xl font-semibold">
-              <span className="mr-2 border-b-[5px] border-l-[10px] border-t-[5px] border-black border-b-transparent border-t-transparent"></span>{" "}
-              Wooden Flooring
-            </h1>
-            <div className="my-8">
-              <Image
-                src={productsImages[2]}
-                alt="Wooden Flooring"
-                width={1920}
-                height={1080}
-                className="h-full object-cover"
-              />
-            </div>
-          </div>
-          <div className="flex flex-col gap-8 xl:w-[30%]">
-            <p className="font-text text-gray-700">
-              At Sports Facility, we take pride in developing the best wooden
-              courts with superior-quality wooden flooring, designed to meet
-              international standards. Our expertise extends across India,
-              providing durable, high-performance flooring solutions for sports
-              arenas, academies, and institutions.
-            </p>
-            <p className="font-text text-gray-700">
-              We offer three types of premium wooden flooring: Teak Wood, Maple
-              Wood, and Hevea, each carefully selected for its durability,
-              performance, and aesthetic appeal. To ensure the longevity of our
-              wooden courts, we also provide anti-termite treatment, protecting
-              the wood from damage and ensuring it remains strong and
-              long-lasting.
-            </p>
-          </div>
-          <div className="xl:w-[30%]">
-            With a commitment to excellence and precision, we guarantee that
-            every court we build enhances gameplay, safety, and durability.
-            Whether for basketball, badminton, or multi-sport use, our wooden
-            flooring is trusted by professionals and enthusiasts alike, making
-            us a leading name in sports infrastructure across the country.
           </div>
         </div>
         <div className="flex flex-col gap-8 xl:flex-row">

@@ -96,7 +96,7 @@ const AboutSection = () => {
 const SportsSection = () => {
   return (
     <section id="sports" className="mb-16 flex flex-col gap-4 xl:mt-16">
-      <h1 className="px-8 font-heading text-5xl uppercase">Shop by Sport</h1>
+      <h1 className="px-8 font-heading text-5xl uppercase">Flooring Types</h1>
       <div className="scroll relative h-[400px] max-xl:overflow-x-scroll xl:overflow-x-hidden xl:hover:overflow-x-scroll">
         <div className="flex w-fit gap-4 px-8">
           {sportsContent.map((sport, index) => (
@@ -124,52 +124,11 @@ const SportsSection = () => {
   );
 };
 
-const ServicesSection = () => {
-  return (
-    <section id="services" className="flex flex-col xl:mt-20 xl:flex-row">
-      <div
-        data-aos="fade-right"
-        className="relative flex h-[650px] overflow-hidden xl:h-auto xl:w-[55%]"
-      >
-        <BackgroundImageSlider images={serviceImages} overlay={true} />
-        <div className="flex flex-col gap-8 px-8 pt-16 text-white sm:px-20 sm:py-20 xl:items-start">
-          <h1 className="font-heading text-6xl uppercase">Services</h1>
-          <p className="font-text leading-relaxed xl:w-[85%]">
-            We provide professional court installation, resurfacing, and
-            maintenance services to ensure your sports facility remains in top
-            condition, delivering a safe and high-performance environment for
-            athletes year-round.
-          </p>
-          <Link target="_blank" href="/services">
-            <Button label={"See More"} light={true} />
-          </Link>
-        </div>
-      </div>
-      <div
-        data-aos="fade-left"
-        className="flex flex-col gap-8 px-8 py-16 sm:px-20 sm:py-20 xl:w-[45%]"
-      >
-        {servicesContent.map((service) => (
-          <div key={service.title} className="flex flex-col gap-4">
-            <h1 className="flex gap-4 font-heading text-4xl font-light">
-              <span className="border-b-[5px] border-l-[10px] border-t-[5px] border-black border-b-transparent border-t-transparent"></span>
-              {service.title}
-            </h1>
-            <p className="font-text font-light leading-normal">
-              {service.description}
-            </p>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};
-
 const ProductsSection = () => {
   return (
     <section
       id="services"
-      className="flex flex-col xl:mt-20 xl:flex-row-reverse"
+      className="flex flex-col xl:mt-20 xl:flex-row"
     >
       <div
         data-aos="fade-left"
@@ -202,6 +161,47 @@ const ProductsSection = () => {
             </h1>
             <p className="font-text font-light leading-normal">
               {product.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+const ServicesSection = () => {
+  return (
+    <section id="services" className="flex flex-col xl:mt-20 xl:flex-row-reverse">
+      <div
+        data-aos="fade-right"
+        className="relative flex h-[650px] overflow-hidden xl:h-auto xl:w-[55%]"
+      >
+        <BackgroundImageSlider images={serviceImages} overlay={true} />
+        <div className="flex flex-col gap-8 px-8 pt-16 text-white sm:px-20 sm:py-20 xl:items-start">
+          <h1 className="font-heading text-6xl uppercase">Services</h1>
+          <p className="font-text leading-relaxed xl:w-[85%]">
+            We provide professional court installation, resurfacing, and
+            maintenance services to ensure your sports facility remains in top
+            condition, delivering a safe and high-performance environment for
+            athletes year-round.
+          </p>
+          <Link target="_blank" href="/services">
+            <Button label={"See More"} light={true} />
+          </Link>
+        </div>
+      </div>
+      <div
+        data-aos="fade-left"
+        className="flex flex-col gap-8 px-8 py-16 sm:px-20 sm:py-20 xl:w-[45%]"
+      >
+        {servicesContent.map((service) => (
+          <div key={service.title} className="flex flex-col gap-4">
+            <h1 className="flex gap-4 font-heading text-4xl font-light">
+              <span className="border-b-[5px] border-l-[10px] border-t-[5px] border-black border-b-transparent border-t-transparent"></span>
+              {service.title}
+            </h1>
+            <p className="font-text font-light leading-normal">
+              {service.description}
             </p>
           </div>
         ))}
@@ -281,8 +281,8 @@ const Page = () => {
       <HeroSection />
       <AboutSection />
       <SportsSection />
-      <ServicesSection />
       <ProductsSection />
+      <ServicesSection />
       <Gallery />
     </>
   );

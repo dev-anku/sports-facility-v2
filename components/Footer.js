@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/assets/icons/logo.png";
+import logoWhite from "@/public/assets/icons/logo_white.png";
 import {
   contactData,
   images,
@@ -32,7 +33,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 items-center gap-12 bg-black px-8 py-16 text-white sm:grid-cols-2 sm:px-20 xl:grid-cols-3 xl:p-32">
         <div className="flex flex-row items-center justify-between gap-8 sm:flex-col sm:items-start">
           <Link className="text-center" href="/">
-            <Image src={logo} alt="logo" className="w-32 sm:w-40" />
+            <Image src={logoWhite} alt="logo" className="w-32 sm:w-40" />
           </Link>
           <ul className="space-y-2 pr-4">
             {navLinks.map((link) => (
