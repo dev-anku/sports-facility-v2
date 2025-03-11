@@ -181,7 +181,7 @@ export const ProjectsContent = [
     type: "Badminton Court",
     title: "Dubbaga, Lucknow",
     description:
-      "We have expertly designed and installed a top-quality wooden badminton court at Dubbaga, Lucknow, offering a safe and enjoyable playing experience for players of all levels.",
+      "We have expertly designed and installed a top-quality acrylic badminton court at Dubbaga, Lucknow, offering a safe and enjoyable playing experience for players of all levels.",
   },
   {
     image: "/assets/images/projects/project1.webp",
@@ -193,7 +193,7 @@ export const ProjectsContent = [
   {
     image: "/assets/images/projects/project2.webp",
     type: "Basketball Court & Tennis Court",
-    title: "Limited Space Area",
+    title: "Lucknow",
     description:
       "A multipurpose court that combines a tennis court and a basketball court is the best solution when space is limited. It is commonly used in schools where space is scarce.",
   },
