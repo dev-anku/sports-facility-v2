@@ -17,16 +17,25 @@ export const images = [
   "/assets/images/image9.jpg",
   "/assets/images/image10.jpg",
   "/assets/images/image11.png",
+  "/assets/images/image12.png",
+  "/assets/images/image13.png",
+  "/assets/images/image14.png",
+  "/assets/images/image15.png",
 ];
 
 export const galleryImages = [
+  "/assets/images/image12.png",
+  "/assets/images/image13.png",
+  "/assets/images/image14.png",
+  "/assets/images/image15.png",
+  "/assets/images/image2.jpg",
   "/assets/images/image1.jpg",
   "/assets/images/image3.jpg",
   "/assets/images/image4.png",
   "/assets/images/image5.jpg",
 ];
 
-export const aboutImages = [images[0], images[1], images[2]];
+export const aboutImages = [images[12], images[11], images[10]];
 
 export const serviceImages = [images[3], images[4], images[7]];
 
@@ -146,6 +155,34 @@ export const contactData = [
 ];
 
 export const ProjectsContent = [
+  {
+    image: "/assets/images/projects/project16.png",
+    type: "Skating Track",
+    title: "Omega, Lucknow",
+    description:
+      "We have designed and installed a stunning skating track at Omega, Lucknow, offering a fun and exhilarating experience for skaters.",
+  },
+  {
+    image: "/assets/images/projects/project17.png",
+    type: "Pickle Ball Court",
+    title: "Harmony Park, Lucknow",
+    description:
+      "We have expertly designed and installed a top-notch pickleball court at Harmony Park, Lucknow, offering a thrilling and competitive experience for players of all levels.",
+  },
+  {
+    image: "/assets/images/projects/project18.png",
+    type: "Badminton Court",
+    title: "Mayor's House, Lucknow",
+    description:
+      "We have designed and installed a state-of-the-art EPDM badminton court at Mayor's House, Lucknow, ensuring top-quality construction and a perfect playing experience.",
+  },
+  {
+    image: "/assets/images/projects/project19.png",
+    type: "Badminton Court",
+    title: "Dubbaga, Lucknow",
+    description:
+      "We have expertly designed and installed a top-quality wooden badminton court at Dubbaga, Lucknow, offering a safe and enjoyable playing experience for players of all levels.",
+  },
   {
     image: "/assets/images/projects/project1.webp",
     type: "Basketball Court & Badminton Court",

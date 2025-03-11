@@ -8,8 +8,8 @@ const HeroSection = () => {
       <div
         className="flex h-[55vh] items-center justify-center overflow-hidden object-fill xl:h-[60vh]"
         style={{
-          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${images[0]})`,
-          backgroundPosition: "center",
+          background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${images[10]})`,
+          backgroundPosition: "40% 70%",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
