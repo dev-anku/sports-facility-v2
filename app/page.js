@@ -14,11 +14,13 @@ import {
   serviceImages,
   productImages,
   galleryImages,
+  igImages,
 } from "@/public/constants";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
 import Image from "next/image";
 import GallerySlider from "@/components/GallerySlider";
+import InstagramSection from "@/components/InstagramSection";
 
 const HeroSection = () => {
   return (
@@ -67,12 +69,12 @@ const AboutSection = () => {
       >
         <h1 className="font-heading text-6xl uppercase">About Us</h1>
         <p className="font-text leading-normal">
-          At <strong>Sports Facility</strong> we are dedicated to building high-quality sports
-          facilities that inspire athletes and communities. With years of
-          expertise in sports construction, we specialize in designing and
-          constructing top-tier courts, fields, and recreational spaces tailored
-          to meet the needs of professionals, schools, and recreational players
-          alike.
+          At <strong>Sports Facility</strong> we are dedicated to building
+          high-quality sports facilities that inspire athletes and communities.
+          With years of expertise in sports construction, we specialize in
+          designing and constructing top-tier courts, fields, and recreational
+          spaces tailored to meet the needs of professionals, schools, and
+          recreational players alike.
         </p>
         <p className="font-text leading-normal">
           Our team combines innovation, precision, and industry-leading
@@ -126,10 +128,7 @@ const SportsSection = () => {
 
 const ProductsSection = () => {
   return (
-    <section
-      id="services"
-      className="flex flex-col xl:mt-20 xl:flex-row"
-    >
+    <section id="services" className="flex flex-col xl:mt-20 xl:flex-row">
       <div
         data-aos="fade-left"
         className="relative flex h-[650px] overflow-hidden xl:h-auto xl:w-[55%]"
@@ -171,7 +170,10 @@ const ProductsSection = () => {
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="flex flex-col xl:mt-20 xl:flex-row-reverse">
+    <section
+      id="services"
+      className="flex flex-col xl:mt-20 xl:flex-row-reverse"
+    >
       <div
         data-aos="fade-right"
         className="relative flex h-[650px] overflow-hidden xl:h-auto xl:w-[55%]"
@@ -283,6 +285,7 @@ const Page = () => {
       <SportsSection />
       <ProductsSection />
       <ServicesSection />
+      <InstagramSection />
       <Gallery />
     </>
   );

@@ -1,3 +1,4 @@
+import InstagramSection from "@/components/InstagramSection";
 import { images, sampleImages } from "@/public/constants";
 import Image from "next/image";
 import React from "react";
@@ -37,7 +38,7 @@ const AboutSection = () => {
         />
       </div>
       <div className="flex flex-col gap-4 font-text text-gray-600 xl:text-xl">
-        <h1 className="font-text text-5xl uppercase text-black">About Us</h1>
+        <h1 className="font-heading text-6xl uppercase text-black">About Us</h1>
         <p>
           At sports facility we are dedicated to building high-quality sports
           facilities that inspire athletes and communities. With years of
@@ -74,6 +75,7 @@ const page = () => {
   return (
     <>
       <HeroSection />
+      <InstagramSection />
       <AboutSection />
     </>
   );

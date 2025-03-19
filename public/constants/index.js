@@ -149,6 +149,14 @@ export const contactData = [
     value: "@sports_facility.in",
   },
   {
+    label: "Twitter",
+    value: "@RIDHAMENTE94360",
+  },
+  {
+    label: "Facebook",
+    value: "Sports facility | Lucknow",
+  },
+  {
     label: "Address",
     value: "529/50, Rahim Nagar Rd, Mahanagar, Lucknow, Uttar Pradesh 226006",
   },
@@ -317,4 +325,11 @@ export const productsImages = [
   "/assets/images/WoodenFlooring.png",
   "/assets/images/EPDMFlooring.png",
   "/assets/images/EPDMFlooring2.png",
+];
+
+export const igImages = [
+  "/assets/images/instagram/post1.png",
+  "/assets/images/instagram/post2.png",
+  "/assets/images/instagram/post3.png",
+  "/assets/images/instagram/post4.png",
 ];
