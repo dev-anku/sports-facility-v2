@@ -56,7 +56,7 @@ export const productsContent = [
   {
     title: "Wooden Sports Flooring",
     description:
-      "Premium wooden courts ideal for indoor sports such as badminton, squash, and basketball. Our maple wood surfaces are crafted to offer the best in performance and aesthetics.",
+      "We offer premium-quality wooden flooring with three exceptional options—Teak, Maple, and Hevea—crafted designed to meet international standards of durability, safety, performance and deliver superior strength and aesthetics.",
   },
   {
     title: "EPDM Flooring",
