@@ -30,7 +30,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="flex gap-x-4">
-        <a href="tel:+917018349322" className=" sm:block">
+        <a href="tel:+918009483311" className=" sm:block">
           <Button label={"Call Now"} />
         </a>
         <button className="xl:hidden">
