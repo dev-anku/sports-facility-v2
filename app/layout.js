@@ -10,7 +10,7 @@ export const metadata = {
     icon: "/assets/icons/logo.png",
   },
   keywords:
-    "sports facility, court surfaces, synthetic courts, EPDM flooring, wooden flooring, sports flooring, sports flooring lucknow, court surfacing, lucknow court surfaces, court fixing, resurfacing courts, ridham sports, ridham enterprises, ridham court surfacing, ridham flooring, ridham flooring lucknow, ridham flooring lucknow, ridham flooring lucknow",
+    "basketball court construction in UP, basketball court construction cost in UP, outdoor basketball court construction in UP, indoor basketball court construction in UP, badminton court construction in UP, badminton court construction estimate in UP, sand volleyball court construction  UP, indoor running track construction UP, clay tennis court construction cost in UP, tennis court construction in UP, sports facility, court surfaces, synthetic courts, EPDM flooring, wooden flooring, sports flooring, sports flooring lucknow, court surfacing, lucknow court surfaces, court fixing, resurfacing courts, ridham sports, ridham enterprises, ridham court surfacing, ridham flooring, ridham flooring lucknow, ridham flooring lucknow, ridham flooring lucknow",
 };
 
 export default function RootLayout({ children }) {
