@@ -7,6 +7,9 @@ export const metadata = {
     title: "Sports We Offer | Sports Facility, Lucknow, Uttar Pradesh",
     description:
         "Sports flooring offered by Sports Facility, known for sports flooring and construction, established in Lucknow, Uttar Pradesh",
+    alternates: {
+        canonical: "https://sports-facility.in/sports",
+    },
 };
 
 const HeroSection = () => {
