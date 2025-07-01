@@ -3,6 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+    title: "Sports We Offer | Sports Facility, Lucknow, Uttar Pradesh",
+    description:
+        "Sports flooring offered by Sports Facility, known for sports flooring and construction, established in Lucknow, Uttar Pradesh",
+};
+
 const HeroSection = () => {
   return (
     <header className="flex flex-col xl:mx-12">
@@ -33,10 +39,10 @@ const SportsSection = () => {
             Sporting Surfaces
           </p>
         </h1>
-        <p className="font-text text-lg text-gray-600">
+        <h3 className="font-text text-lg text-gray-600">
           Sports facility provides expert sporting surfaces for a wide range of
           sports and transforming them with premium solutions.
-        </p>
+        </h3>
       </div>
       <div className="grid grid-cols-1 gap-8 gap-y-20 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
         {sportsContent.map((sport, index) => (
@@ -48,9 +54,9 @@ const SportsSection = () => {
               alt={sport.title}
               className="h-full object-cover"
             />
-            <p className="font-text text-xl font-medium uppercase">
+            <h2 className="font-text text-xl font-medium uppercase">
               {sport.title}
-            </p>
+            </h2>
             <Link href="/sports" className="uppercase text-blue-500">
               Learn More
             </Link>

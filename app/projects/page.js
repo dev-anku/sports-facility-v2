@@ -2,6 +2,12 @@ import Image from "next/image";
 import React from "react";
 import { images, ProjectsContent, sampleImages } from "@/public/constants";
 
+export const metadata = {
+    title: "Our Projects | Sports Facility, Lucknow, Uttar Pradesh",
+    description:
+        "Hardworked Projects Completed by Sports Facility, known for sports flooring and construction, established in Lucknow, Uttar Pradesh",
+};
+
 const HeroSection = () => {
   return (
     <header className="flex flex-col xl:mx-12">
@@ -37,10 +43,10 @@ const ProjectsSection = () => {
                 className="object-cover h-full"
               />
             </div>
-            <p className="font-text uppercase text-blue-400">{project.type}</p>
-            <p className="font-text text-2xl font-medium uppercase">
+            <h2 className="font-text uppercase text-blue-400">{project.type}</h2>
+            <h1 className="font-text text-2xl font-medium uppercase">
               {project.title}
-            </p>
+            </h1>
             <p className="font-text text-gray-600">{project.description}</p>
           </div>
         ))}

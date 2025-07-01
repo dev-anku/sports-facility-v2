@@ -3,6 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+    title: "Contact Us | Sports Facility, Lucknow, Uttar Pradesh",
+    description:
+        "Contact details of Sports Facility, known for sports flooring and construction, established in Lucknow, Uttar Pradesh",
+};
+
 const HeroSection = () => {
   return (
     <header className="flex flex-col xl:mx-12">

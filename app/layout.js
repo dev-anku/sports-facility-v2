@@ -3,7 +3,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Sports Flooring & Court Surfacing | Sports Facility Lucknow",
+  title: {
+      default: "Sports Flooring & Court Surfacing | Sports Facility Lucknow",
+      template: "%s | Sports Facility, Lucknow, Uttar Pradesh"
+  },
   description:
     "Discover premium sports flooring and court surfacing solutions, including EPDM Flooring, synthetic flooring, and wooden courts and wooden flooring.",
   icons: {
