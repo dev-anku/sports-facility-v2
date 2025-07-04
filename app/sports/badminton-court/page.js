@@ -27,6 +27,7 @@ const BadmintonCourt = () => {
                     width={1920}
                     height={1080}
                     alt="hero"
+                    className="rounded-lg"
                 />
             </div>
             <div className="flex flex-col gap-4 font-text text-gray-600 xl:text-xl">
