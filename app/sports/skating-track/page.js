@@ -1,4 +1,4 @@
-import { images, sampleImages, sportsContent } from "@/public/constants";
+import { images, sampleImages, sportsContent, ProjectsContent } from "@/public/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -162,6 +162,37 @@ const SkatingTrack = () => {
                     <Link className="ml-2" target="_blank" href="/sports">
                         <Button label={"See More"} />
                     </Link>
+                </div>
+                        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 xl:grid-cols-3">
+                    {ProjectsContent.map((project) => {
+                        if (project.tags.includes("skating")) {
+                            return (
+                                <div
+                                    className="flex flex-col gap-2"
+                                    key={project.title}
+                                >
+                                    <div className="h-[50vh] overflow-hidden rounded-lg">
+                                        <Image
+                                            src={project.image}
+                                            width={1920}
+                                            height={1080}
+                                            alt={project.title}
+                                            className="h-full object-cover"
+                                        />
+                                    </div>
+                                    <h2 className="font-text uppercase text-blue-400">
+                                        {project.type}
+                                    </h2>
+                                    <h1 className="font-text text-2xl font-medium uppercase">
+                                        {project.title}
+                                    </h1>
+                                    <p className="font-text text-gray-600">
+                                        {project.description}
+                                    </p>
+                                </div>
+                            );
+                        }
+                    })}
                 </div>
             </div>
         </section>
