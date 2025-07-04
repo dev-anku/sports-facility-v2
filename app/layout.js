@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
     title: {
-        default: "Sports Flooring & Court Surfacing | Sports Facility Lucknow",
+        default: "Sports Flooring & Court Surfacing | Sports Facility, Lucknow, Uttar Pradesh",
         template: "%s | Sports Facility, Lucknow, Uttar Pradesh",
     },
     alternates: {
