@@ -105,19 +105,19 @@ export const sportsContent = [
         link: "/sports/synthetic-sports-flooring",
     },
     {
-        image: "/assets/images/sports/tennis.jpg",
+        image: "/assets/images/sports/tennis.png",
         title: "Tennis Court",
         link: "/sports/tennis-court",
     },
     {
-        image: "/assets/images/sports/basketball.jpg",
+        image: "/assets/images/sports/basketball.png",
         title: "Basketball Court",
         link: "/sports/basketball-court",
     },
     {
         image: "/assets/images/sports/badminton.jpg",
         title: "Badminton Court",
-        link: "/sports/badminton",
+        link: "/sports/badminton-court",
     },
     {
         image: "/assets/images/sports/squash.png",

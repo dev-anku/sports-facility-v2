@@ -4,6 +4,17 @@ import Link from "next/link";
 import React from "react";
 import Button from "@/components/ui/Button";
 
+export const metadata = {
+    title: "Wooden Sports Flooring",
+    description:
+        "Professional-grade wooden flooring installation for indoor sports courts in UP. Slip-resistant, shock-absorbent, and built for high performance and long-term use.",
+    keywords:
+        "wooden sports flooring, indoor court flooring, teak maple flooring UP, gym flooring installation, sports flooring contractors India",
+    alternates: {
+        canonical: "https://sports-facility.in/sports/wooden-sports-flooring",
+    },
+};
+
 const WoodenFlooring = () => {
     return (
         <section
@@ -157,7 +168,9 @@ const WoodenFlooring = () => {
                     </h2>
                     <p>
                         We deliver and install sports flooring all around India
-                        including major states like Uttar Pradesh, Delhi etc.
+                        including major cities in Uttar Pradesh like Lucknow,
+                        Kanpur, Varanasi, Noida, Agra, Bareilly, Gorakhpur,
+                        Meerut, etc.
                     </p>
                 </div>
                 <div>
@@ -167,6 +180,9 @@ const WoodenFlooring = () => {
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />
+                    </Link>
+                    <Link className="ml-2" target="_blank" href="/projects">
+                        <Button label={"See Our Projects"} />
                     </Link>
                     <Link className="ml-2" target="_blank" href="/sports">
                         <Button label={"See More"} />

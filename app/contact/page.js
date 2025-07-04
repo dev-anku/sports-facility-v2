@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-    title: "Contact Us | Sports Facility, Lucknow, Uttar Pradesh",
+    title: "Contact Us",
     description:
         "Contact details of Sports Facility, known for sports flooring and construction, established in Lucknow, Uttar Pradesh",
     alternates: {

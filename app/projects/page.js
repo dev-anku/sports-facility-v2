@@ -3,7 +3,7 @@ import React from "react";
 import { images, ProjectsContent, sampleImages } from "@/public/constants";
 
 export const metadata = {
-    title: "Our Projects | Sports Facility, Lucknow, Uttar Pradesh",
+    title: "Our Projects",
     description:
         "Hardworked Projects Completed by Sports Facility, known for sports flooring and construction, established in Lucknow, Uttar Pradesh",
     alternates: {
@@ -37,7 +37,7 @@ const ProjectsSection = () => {
             <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 xl:grid-cols-3">
                 {ProjectsContent.map((project) => (
                     <div className="flex flex-col gap-2" key={project.title}>
-                        <div className="h-[50vh] overflow-hidden">
+                        <div className="h-[50vh] overflow-hidden rounded-lg">
                             <Image
                                 src={project.image}
                                 width={1920}

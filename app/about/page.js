@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 
 export const metadata = {
-    title: "About Us | Sports Facility, Lucknow, Uttar Pradesh",
+    title: "About Us",
     description:
         "About Sports Facility, known for sports flooring and construction, established in Lucknow, Uttar Pradesh",
     alternates: {
