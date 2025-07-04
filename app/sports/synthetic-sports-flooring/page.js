@@ -167,7 +167,7 @@ const SyntheticFlooring = () => {
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
                         Planning to install a long-lasting, weatherproof
-                        synthetic surface for your court or facility?
+                        synthetic surface for your court or facility at a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

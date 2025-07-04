@@ -160,7 +160,7 @@ const EPDMFlooring = () => {
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
                         Looking to install a long-lasting, visually striking
-                        EPDM surface for your facility?
+                        EPDM surface for your facility at a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

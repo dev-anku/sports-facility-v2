@@ -147,7 +147,7 @@ const RunningTrack = () => {
                 </div>
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
-                        Planning a new running or jogging track?
+                        Planning a new running or jogging track at a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

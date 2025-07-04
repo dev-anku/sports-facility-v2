@@ -182,7 +182,7 @@ const BadmintonCourt = () => {
                 </div>
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
-                        Want to build a high-performance badminton court?
+                        Want to build a high-performance badminton court for a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

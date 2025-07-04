@@ -166,7 +166,7 @@ const BasketballCourt = () => {
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
                         Need a reliable team to build your indoor or outdoor
-                        basketball court?
+                        basketball court for a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

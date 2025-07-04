@@ -151,7 +151,7 @@ const TennisCourt = () => {
                 </div>
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
-                        Looking to build a professional tennis court?
+                        Looking to build a professional tennis court at a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

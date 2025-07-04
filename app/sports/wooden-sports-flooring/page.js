@@ -177,7 +177,7 @@ const WoodenFlooring = () => {
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
                         Ready to upgrade your indoor facility with
-                        professionally installed wooden flooring?
+                        professionally installed wooden flooring at a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

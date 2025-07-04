@@ -181,7 +181,7 @@ const PickleBallCourt = () => {
                 </div>
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
-                        Ready to build your own pickleball court?
+                        Ready to build your own pickleball court at a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

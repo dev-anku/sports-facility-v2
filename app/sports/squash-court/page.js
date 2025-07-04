@@ -150,7 +150,7 @@ const SquashCourt = () => {
                 </div>
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
-                        Need a squash court built to WSF standards?
+                        Need a squash court built to WSF standards at a cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />
