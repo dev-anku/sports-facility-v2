@@ -3,6 +3,26 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+const HeroSection = () => {
+    return (
+        <header className="flex flex-col xl:mx-12">
+            <div
+                className="flex h-[55vh] items-center justify-center overflow-hidden object-fill xl:h-[60vh]"
+                style={{
+                    background: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${images[1]})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                }}
+            >
+                <h1 className="px-2 text-center font-heading text-5xl font-bold uppercase text-white xl:text-7xl">
+                    Sporting Surfaces
+                </h1>
+            </div>
+        </header>
+    );
+};
+
 const SportsSection = () => {
     return (
         <section className="mx-6 my-8 flex flex-col items-center justify-center gap-20 xl:mx-32 xl:my-12">
@@ -30,7 +50,7 @@ const SportsSection = () => {
                             width={1920}
                             height={1080}
                             alt={sport.title}
-                            className="h-full object-cover rounded-lg"
+                            className="h-full rounded-lg object-cover"
                         />
                         <h2 className="font-text text-xl font-medium uppercase">
                             {sport.title}
@@ -51,6 +71,7 @@ const SportsSection = () => {
 const page = () => {
     return (
         <>
+            <HeroSection />
             <SportsSection />
         </>
     );

@@ -158,20 +158,6 @@ const VolleyballCourt = () => {
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h2 className="mb-3 text-2xl font-semibold text-black">
-                        Looking to build an indoor or outdoor volleyball court at a cheaper price?
-                    </h2>
-                    <Link target="_blank" href="/contact">
-                        <Button label={"Contact Us"} />
-                    </Link>
-                    <Link className="ml-2" target="_blank" href="/projects">
-                        <Button label={"See Our Projects"} />
-                    </Link>
-                    <Link className="ml-2" target="_blank" href="/sports">
-                        <Button label={"See More"} />
-                    </Link>
-                </div>
                         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 xl:grid-cols-3">
                     {ProjectsContent.map((project) => {
                         if (project.tags.includes("volleyball")) {
@@ -202,6 +188,20 @@ const VolleyballCourt = () => {
                             );
                         }
                     })}
+                </div>
+                <div>
+                    <h2 className="mb-3 text-2xl font-semibold text-black">
+                        Looking to build an indoor or outdoor volleyball court at a cheaper price?
+                    </h2>
+                    <Link target="_blank" href="/contact">
+                        <Button label={"Contact Us"} />
+                    </Link>
+                    <Link className="xl:ml-2" target="_blank" href="/projects">
+                        <Button label={"See Our Projects"} />
+                    </Link>
+                    <Link className="xl:ml-2" target="_blank" href="/sports">
+                        <Button label={"See More"} />
+                    </Link>
                 </div>
             </div>
         </section>

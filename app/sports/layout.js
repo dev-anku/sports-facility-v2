@@ -38,7 +38,6 @@ const HeroSection = () => {
 const layout = ({ children }) => {
     return (
         <>
-            <HeroSection />
             {children}
         </>
     );
