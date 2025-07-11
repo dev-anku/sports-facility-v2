@@ -41,10 +41,32 @@ const WoodenFlooring = () => {
                     <p>
                         At Sports Facility, we install high-performance wooden
                         flooring systems for indoor sports courts that demand
-                        durability, precision, and playability. Whether for
-                        basketball, badminton, volleyball, or multi-sport use,
-                        our wooden flooring delivers the quality needed for
-                        competitive play.
+                        durability, precision, and playability. Whether for{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports/basketball-court"
+                        >
+                            basketball
+                        </Link>
+                        ,{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports/badminton-court"
+                        >
+                            badminton
+                        </Link>
+                        ,{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports/volleyball-court"
+                        >
+                            volleyball
+                        </Link>
+                        , or multi-sport use, our wooden flooring delivers the
+                        quality needed for competitive play.
                     </p>
                 </div>
                 <div>
@@ -136,9 +158,9 @@ const WoodenFlooring = () => {
                     </h2>
                     <p>Our wooden flooring solutions are designed for:</p>
                     <ul className="list-inside list-disc">
-                        <li>🏸 Badminton Courts</li>
-                        <li>🏀 Basketball Courts</li>
-                        <li>🏐 Volleyball Courts</li>
+                        <li>🏸 <Link className="text-blue-400" target="_blank" href="/sports/badminton-court">Badminton Courts</Link></li>
+                        <li>🏀 <Link className="text-blue-400" target="_blank" href="/sports/basketball-court">Basketball Courts</Link></li>
+                        <li>🏐 <Link className="text-blue-400" target="_blank" href="/sports/volleyball-court">Volleyball Courts</Link></li>
                         <li>🏫 School & College Gyms</li>
                         <li>🏢 Indoor Sports Complexes</li>
                         <li>🏠 Multi-Purpose Halls</li>
@@ -177,7 +199,8 @@ const WoodenFlooring = () => {
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
                         Ready to upgrade your indoor facility with
-                        professionally installed wooden flooring at a cheaper price?
+                        professionally installed wooden flooring at a cheaper
+                        price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

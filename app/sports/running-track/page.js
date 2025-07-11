@@ -48,8 +48,8 @@ const RunningTrack = () => {
                         Sports Facility designs and builds high-quality running
                         tracks for schools, stadiums, public parks, colleges,
                         and residential projects across India. We specialize in
-                        shock-absorbent, weather-resistant surfaces using EPDM,
-                        PU, or acrylic-based systems, installed with accurate
+                        shock-absorbent, weather-resistant surfaces using <Link className="text-blue-400" target="_blank" href="/sports/epdm-sports-flooring">EPDM</Link>,
+                        PU, or <Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">acrylic-based systems</Link>, installed with accurate
                         leveling and drainage. Headquartered in Uttar Pradesh,
                         we manage complete track construction projects
                         nationwide — from foundation to final lane marking.
@@ -65,7 +65,7 @@ const RunningTrack = () => {
                     </p>
                     <ul className="list-inside list-disc">
                         <li>
-                            <strong>🟥 EPDM Rubber Tracks:</strong>{" "}
+                            <strong>🟥 <Link className="text-blue-400" target="_blank" href="/sports/epdm-sports-flooring">EPDM Rubber Tracks</Link>:</strong>{" "}
                             Long-lasting, UV-resistant, and highly cushioned.
                             Great for school grounds, public parks, and
                             multi-use jogging areas.
@@ -76,7 +76,7 @@ const RunningTrack = () => {
                             athletic tracks and training grounds.
                         </li>
                         <li>
-                            <strong>🟦 Acrylic Spray-Coated Tracks:</strong>{" "}
+                            <strong>🟦 <Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">Acrylic Spray-Coated Tracks</Link>:</strong>{" "}
                             Budget-friendly, low-maintenance solution for light
                             athletic or recreational use on concrete bases.
                         </li>

@@ -60,7 +60,7 @@ const VolleyballCourt = () => {
                     </p>
                     <ul className="list-inside list-disc">
                         <li>
-                            <strong>🟩 Acrylic Synthetic Courts:</strong>{" "}
+                            <strong>🟩 <Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">Acrylic Synthetic Courts</Link>:</strong>{" "}
                             Weatherproof and textured for grip. Perfect for
                             outdoor volleyball in schools, clubs, and
                             institutions.
@@ -72,7 +72,7 @@ const VolleyballCourt = () => {
                             and high-traffic arenas.
                         </li>
                         <li>
-                            <strong>🪵 Wooden Flooring Courts:</strong> Maple or
+                            <strong>🪵 <Link className="text-blue-400" target="_blank" href="/sports/wooden-sports-flooring">Wooden Flooring Courts</Link>:</strong> Maple or
                             teak hardwood with shock pads. Ideal for competitive
                             indoor courts with accurate ball response.
                         </li>
@@ -116,7 +116,7 @@ const VolleyballCourt = () => {
                             🧱 Civil base (RCC, asphalt, or sand compaction)
                         </li>
                         <li>
-                            🧪 Surface installation (acrylic, PU, wood, or sand)
+                            🧪 Surface installation (<Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">acrylic</Link>, PU, <Link className="text-blue-400" target="_blank" href="/sports/wooden-sports-flooring">wood</Link>, or sand)
                         </li>
                         <li>🎯 Court markings and zoning</li>
                         <li>

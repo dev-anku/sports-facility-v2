@@ -42,13 +42,50 @@ const SyntheticFlooring = () => {
                     </h2>
                     <p>
                         At Sports Facility, we design and install durable,
-                        low-maintenance synthetic flooring systems for outdoor
-                        and indoor sports. Our flooring is UV-resistant,
-                        anti-skid, weatherproof, and built to handle the demands
-                        of everyday play across India. Whether for basketball,
-                        tennis, volleyball, or multi-sport arenas, we provide
-                        end-to-end flooring solutions tailored to your
-                        requirements.
+                        low-maintenance synthetic flooring systems for{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports"
+                        >
+                            outdoor and indoor sports
+                        </Link>
+                        . Our flooring is UV-resistant, anti-skid, weatherproof,
+                        and built to handle the demands of everyday play across
+                        India. Whether for{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports/basketball-court"
+                        >
+                            basketball
+                        </Link>
+                        ,
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports/tennis-court"
+                        >
+                            tennis
+                        </Link>
+                        ,{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports/volleyball-court"
+                        >
+                            volleyball
+                        </Link>
+                        , or{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports"
+                        >
+                            multi-sport
+                        </Link>{" "}
+                        arenas, we provide end-to-end flooring solutions
+                        tailored to your requirements.
                     </p>
                 </div>
                 <div>
@@ -119,9 +156,46 @@ const SyntheticFlooring = () => {
                         Where Synthetic Flooring Works Best
                     </h2>
                     <ul className="list-inside list-disc">
-                        <li>🏀 Basketball courts (indoor & outdoor)</li>
-                        <li>🎾 Tennis & Pickleball courts</li>
-                        <li>🏐 Volleyball & futsal courts</li>
+                        <li>
+                            🏀{" "}
+                            <Link
+                                className="text-blue-400"
+                                target="_blank"
+                                href="/sports/basketball-court"
+                            >
+                                Basketball courts
+                            </Link>{" "}
+                            (indoor & outdoor)
+                        </li>
+                        <li>
+                            🎾{" "}
+                            <Link
+                                className="text-blue-400"
+                                target="_blank"
+                                href="/sports/tennis-court"
+                            >
+                                Tennis
+                            </Link>{" "}
+                            &{" "}
+                            <Link
+                                className="text-blue-400"
+                                target="_blank"
+                                href="/sports/pickle-ball-court"
+                            >
+                                Pickleball courts
+                            </Link>
+                        </li>
+                        <li>
+                            🏐{" "}
+                            <Link
+                                className="text-blue-400"
+                                target="_blank"
+                                href="/sports/volleyball-court"
+                            >
+                                Volleyball
+                            </Link>{" "}
+                            & futsal courts
+                        </li>
                         <li>🏫 School play areas & institutional grounds</li>
                         <li>
                             🏃 Athletic tracks & multi-use recreational spaces
@@ -167,7 +241,8 @@ const SyntheticFlooring = () => {
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
                         Planning to install a long-lasting, weatherproof
-                        synthetic surface for your court or facility at a cheaper price?
+                        synthetic surface for your court or facility at a
+                        cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

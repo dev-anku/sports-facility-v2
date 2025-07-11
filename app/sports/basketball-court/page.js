@@ -66,13 +66,33 @@ const BasketballCourt = () => {
                     </p>
                     <ul className="list-inside list-disc">
                         <li>
-                            <strong>🪵 Wooden Flooring Courts:</strong> Ideal
-                            for indoor play, built with shock-absorbent maple or
-                            teak. Preferred by academies and professional
-                            training centers.
+                            <strong>
+                                🪵{" "}
+                                <Link
+                                    className="text-blue-400"
+                                    target="_blank"
+                                    href="/sports/wooden-sports-flooring"
+                                >
+                                    Wooden Flooring Courts
+                                </Link>
+                                :
+                            </strong>{" "}
+                            Ideal for indoor play, built with shock-absorbent
+                            maple or teak. Preferred by academies and
+                            professional training centers.
                         </li>
                         <li>
-                            <strong>🟩 Synthetic Acrylic Courts:</strong>{" "}
+                            <strong>
+                                🟩{" "}
+                                <Link
+                                    className="text-blue-400"
+                                    target="_blank"
+                                    href="/sports/synthetic-sports-flooring"
+                                >
+                                    Synthetic Acrylic Courts
+                                </Link>
+                                :
+                            </strong>{" "}
                             Weatherproof, anti-skid, and budget-friendly. Great
                             for schools, societies, and public sports grounds.
                         </li>
@@ -131,7 +151,25 @@ const BasketballCourt = () => {
                     <ul className="list-inside list-disc">
                         <li>📍 Site survey and leveling</li>
                         <li>🧱 Civil base construction (concrete/asphalt)</li>
-                        <li>🧪 Surface layering (wood, acrylic, PU, etc.)</li>
+                        <li>
+                            🧪 Surface layering (
+                            <Link
+                                className="text-blue-400"
+                                target="_blank"
+                                href="/sports/wooden-sports-flooring"
+                            >
+                                wood
+                            </Link>
+                            ,{" "}
+                            <Link
+                                className="text-blue-400"
+                                target="_blank"
+                                href="/sports/epdm-sports-flooring"
+                            >
+                                acrylic
+                            </Link>
+                            , PU, etc.)
+                        </li>
                         <li>🖌️ FIBA-compliant court markings</li>
                         <li>
                             🏗️ Accessories: hoops, poles, backboards, and

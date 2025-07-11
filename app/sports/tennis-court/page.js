@@ -58,7 +58,7 @@ const TennisCourt = () => {
                     </p>
                     <ul className="list-inside list-disc">
                         <li>
-                            <strong>🟩 Synthetic Acrylic Courts:</strong> Most
+                            <strong>🟩 <Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">Synthetic Acrylic Courts</Link>:</strong> Most
                             popular, low maintenance, ideal for all-weather play
                         </li>
                         <li>
@@ -67,7 +67,7 @@ const TennisCourt = () => {
                             residential setups
                         </li>
                         <li>
-                            <strong>🪵 Wooden Tennis Courts:</strong> 
+                            <strong>🪵 <Link className="text-blue-400" target="_blank" href="/sports/wooden-sports-flooring">Wooden Tennis Courts</Link>:</strong> 
                             Indoor use with shock-absorbent wooden flooring
                             Ideal for training academies and indoor arenas
                         </li>
@@ -122,7 +122,7 @@ const TennisCourt = () => {
                             🧱 Civil base construction (concrete/asphalt/RCC)
                         </li>
                         <li>
-                            🧪 Surface installation (synthetic, turf, PU, etc.)
+                            🧪 Surface installation (<Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">synthetic</Link>, turf, PU, etc.)
                         </li>
                         <li>🖌️ ITF-standard line markings and coating</li>
                         <li>

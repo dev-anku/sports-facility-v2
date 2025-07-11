@@ -40,11 +40,18 @@ const EPDMFlooring = () => {
                     </h2>
                     <p>
                         Sports Facility offers high-performance, weatherproof
-                        EPDM sports flooring for outdoor courts, playgrounds,
-                        and athletic zones across India. Based in Uttar Pradesh,
-                        we deliver customized surfacing systems suitable for
-                        heavy outdoor use, ensuring maximum safety, grip, and
-                        long-term durability.
+                        EPDM sports flooring for{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports"
+                        >
+                            outdoor courts
+                        </Link>
+                        , playgrounds, and athletic zones across India. Based in
+                        Uttar Pradesh, we deliver customized surfacing systems
+                        suitable for heavy outdoor use, ensuring maximum safety,
+                        grip, and long-term durability.
                     </p>
                 </div>
                 <div>
@@ -115,10 +122,10 @@ const EPDMFlooring = () => {
                         Where EPDM Flooring Works Best
                     </h2>
                     <ul className="list-inside list-disc">
-                        <li>🏸 Multi-sport outdoor courts</li>
-                        <li>🏀 Basketball and volleyball surfaces</li>
+                        <li>🏸 <Link className="text-blue-400" target="_blank" href="/sports">Multi-sport outdoor courts</Link></li>
+                        <li>🏀 <Link className="text-blue-400" target="_blank" href="/sports/basketball-court">Basketball</Link> and <Link className="text-blue-400" target="_blank" href="/sports/volleyball-court">volleyball</Link> surfaces</li>
                         <li>🧒 Children’s play areas and school playgrounds</li>
-                        <li>🏃 Jogging tracks and walkways</li>
+                        <li>🏃 <Link className="text-blue-400" target="_blank" href="/sports/skating-track">Skating tracks</Link> and walkways</li>
                         <li>
                             🏫 Recreational zones in institutions and housing
                             societies

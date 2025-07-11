@@ -43,8 +43,8 @@ const SquashCourt = () => {
                         Sports Facility builds regulation-compliant squash
                         courts for academies, sports complexes, institutions,
                         and residential clubs across India. We specialize in
-                        delivering turnkey squash court projects with hardwood
-                        sports flooring, plastered or glass wall systems, and
+                        delivering turnkey squash court projects with <Link className="text-blue-400" target="_blank" href="/sports/wooden-sports-flooring">hardwood
+                        sports flooring</Link>, plastered or glass wall systems, and
                         integrated lighting — ensuring safety, precision, and
                         long-term durability. Our team operates from Uttar
                         Pradesh and delivers projects across the nation.
@@ -60,7 +60,7 @@ const SquashCourt = () => {
                     </p>
                     <ul className="list-inside list-disc">
                         <li>
-                            <strong>🪵 Hardwood Flooring:</strong> Premium maple
+                            <strong>🪵 <Link className="text-blue-400" target="_blank" href="/sports/wooden-sports-flooring">Hardwood Flooring</Link>:</strong> Premium maple
                             or teak wood with shock-absorbent sublayers and
                             anti-skid coating. Built for consistent rebound and
                             fast-paced footwork.
@@ -107,7 +107,7 @@ const SquashCourt = () => {
                     <ul className="list-inside list-disc">
                         <li>📍 Site analysis & layout planning</li>
                         <li>🧱 Civil work & sub-base leveling</li>
-                        <li>🪵 Wooden floor system with shock pads</li>
+                        <li>🪵 <Link className="text-blue-400" target="_blank" href="/sports/wooden-sports-flooring">Wooden floor</Link> system with shock pads</li>
                         <li>
                             🧪 Wall finishing (plaster or glass installation)
                         </li>

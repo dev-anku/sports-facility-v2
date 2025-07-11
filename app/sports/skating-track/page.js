@@ -70,7 +70,7 @@ const SkatingTrack = () => {
                             Great for indoor skating and multi-sport use.
                         </li>
                         <li>
-                            <strong>🟩 Acrylic Synthetic Tracks:</strong>{" "}
+                            <strong>🟩 <Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">Acrylic Synthetic Tracks</Link>:</strong>{" "}
                             UV-resistant, low-maintenance coating ideal for
                             semi-outdoor recreational skating circuits.
                         </li>

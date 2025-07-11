@@ -49,10 +49,25 @@ const BadmintonCourt = () => {
                         courts that meet both recreational and professional
                         standards. Our expertise spans indoor training arenas,
                         school halls, residential clubhouses, and commercial
-                        complexes. Whether you need a wooden badminton floor, a
-                        synthetic mat, or a multi-use vinyl surface, we provide
-                        end-to-end solutions — civil base to final line markings
-                        — delivered with unmatched precision.
+                        complexes. Whether you need a{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports/wooden-sports-flooring"
+                        >
+                            wooden badminton floor
+                        </Link>
+                        ,{" "}
+                        <Link
+                            className="text-blue-400"
+                            target="_blank"
+                            href="/sports/synthetic-sports-flooring"
+                        >
+                            a synthetic mat
+                        </Link>
+                        , or a multi-use vinyl surface, we provide end-to-end
+                        solutions — civil base to final line markings —
+                        delivered with unmatched precision.
                     </p>
                 </div>
                 <div>
@@ -65,13 +80,33 @@ const BadmintonCourt = () => {
                     </p>
                     <ul className="list-inside list-disc">
                         <li>
-                            <strong>🪵 Wooden Flooring Courts:</strong> Indoor
-                            maple or teak wood with shock-absorbent sublayers
-                            and anti-skid finish. Preferred for competitive
-                            academies and pro-level play.
+                            <strong>
+                                🪵{" "}
+                                <Link
+                                    className="text-blue-400"
+                                    target="_blank"
+                                    href="/sports/wooden-sports-flooring"
+                                >
+                                    Wooden Flooring Courts
+                                </Link>
+                                :
+                            </strong>{" "}
+                            Indoor maple or teak wood with shock-absorbent
+                            sublayers and anti-skid finish. Preferred for
+                            competitive academies and pro-level play.
                         </li>
                         <li>
-                            <strong>🟩 Vinyl (PVC) Synthetic Mats:</strong>{" "}
+                            <strong>
+                                🟩 Vinyl (PVC){" "}
+                                <Link
+                                    className="text-blue-400"
+                                    target="_blank"
+                                    href="/sports/synthetic-sports-flooring"
+                                >
+                                    Synthetic Mats
+                                </Link>
+                                :
+                            </strong>{" "}
                             Roll-based cushioned surfaces with anti-slip
                             texture. Ideal for schools, clubs, and fast
                             installations.
@@ -136,7 +171,7 @@ const BadmintonCourt = () => {
                             required)
                         </li>
                         <li>
-                            🧪 Surface installation (wood, vinyl, PU, or coated
+                            🧪 Surface installation (<Link className="text-blue-400" target="_blank" href="/sports/wooden-sports-flooring">wood</Link>, vinyl, PU, or coated
                             concrete)
                         </li>
                         <li>🎯 BWF-compliant line marking and detailing</li>
@@ -213,7 +248,8 @@ const BadmintonCourt = () => {
                 </div>
                 <div>
                     <h2 className="mb-3 text-2xl font-semibold text-black">
-                        Want to build a high-performance badminton court for a cheaper price?
+                        Want to build a high-performance badminton court for a
+                        cheaper price?
                     </h2>
                     <Link target="_blank" href="/contact">
                         <Button label={"Contact Us"} />

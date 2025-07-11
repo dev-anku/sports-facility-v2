@@ -47,7 +47,7 @@ const PickleBallCourt = () => {
                         Sports Facility constructs high-performance pickleball
                         courts for clubs, communities, schools, and fitness
                         centers across India. Whether you're planning a
-                        standalone pickleball space or a multi-sport layout, we
+                        standalone pickleball space or a <Link className="text-blue-400" target="_blank" href="/sports">multi-sport</Link> layout, we
                         offer full design + build services, including base work,
                         surfacing, equipment, and lighting.
                     </p>
@@ -62,7 +62,7 @@ const PickleBallCourt = () => {
                     </p>
                     <ul className="list-inside list-disc">
                         <li>
-                            <strong>🟩 Acrylic Synthetic Courts:</strong>{" "}
+                            <strong>🟩 <Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">Acrylic Synthetic Courts</Link>:</strong>{" "}
                             Non-slip, low-maintenance surfaces ideal for both
                             indoor and outdoor use. Suitable for fast-paced
                             rallies with consistent ball bounce.
@@ -77,7 +77,7 @@ const PickleBallCourt = () => {
                         </li>
                         <li>
                             <strong>
-                                🧱 Concrete Base with Synthetic Coating:
+                                🧱 Concrete Base with <Link className="text-blue-400" target="_blank" href="/sports/synthetic-sports-flooring">Synthetic Coating</Link>:
                             </strong>{" "}
                             Durable and cost-effective for housing societies,
                             schools, and open public courts.

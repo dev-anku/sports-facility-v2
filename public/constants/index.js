@@ -175,12 +175,28 @@ export const contactData = [
 
 export const ProjectsContent = [
     {
+        image: "/assets/images/projects/project21.webp",
+        type: "Pickleball Court",
+        title: "Pickle Pro, Gomti Nagar, Lucknow",
+        description:
+            "A premium pickleball court installed at Pickle Pro, Gomti Nagar, offering excellent playability and durability. Perfect for training sessions, friendly matches, and local tournaments.",
+        tags: ["pickleball"],
+    },
+    {
+        image: "/assets/images/projects/project20.webp",
+        type: "Basketball Court",
+        title: "Jiwan Sunshine School, Lucknow",
+        description:
+            "We have designed and installed a durable, high-performance basketball court at Jiwan Sunshine School, Lucknow, delivering a safe and vibrant playing experience that encourages athletic development and school pride.",
+        tags: ["basketball"],
+    },
+    {
         image: "/assets/images/projects/project16.png",
         type: "Skating Track",
         title: "Omega, Lucknow",
         description:
             "We have designed and installed a stunning skating track at Omega, Lucknow, offering a fun and exhilarating experience for skaters.",
-        tags: [ "skating" ],
+        tags: ["skating"],
     },
     {
         image: "/assets/images/projects/project17.png",
@@ -188,7 +204,7 @@ export const ProjectsContent = [
         title: "Harmony Park, Lucknow",
         description:
             "We have expertly designed and installed a top-notch pickleball court at Harmony Park, Lucknow, offering a thrilling and competitive experience for players of all levels.",
-        tags: [ "pickleball" ],
+        tags: ["pickleball"],
     },
     {
         image: "/assets/images/projects/project18.png",
@@ -196,7 +212,7 @@ export const ProjectsContent = [
         title: "Mayor's House, Lucknow",
         description:
             "We have designed and installed a state-of-the-art EPDM badminton court at Mayor's House, Lucknow, ensuring top-quality construction and a perfect playing experience.",
-        tags: [ "badminton" ],
+        tags: ["badminton"],
     },
     {
         image: "/assets/images/projects/project19.png",
@@ -204,7 +220,7 @@ export const ProjectsContent = [
         title: "Dubbaga, Lucknow",
         description:
             "We have expertly designed and installed a top-quality acrylic badminton court at Dubbaga, Lucknow, offering a safe and enjoyable playing experience for players of all levels.",
-        tags: [ "badminton" ],
+        tags: ["badminton"],
     },
     {
         image: "/assets/images/projects/project1.webp",
@@ -212,7 +228,7 @@ export const ProjectsContent = [
         title: "Ajmani International School, Lakhimpur Kheri",
         description:
             "One of our most loved projects at Ajmani International Lakhimpur School features two basketball courts and one badminton court, constructed using the highest quality materials.",
-        tags: [ "basketball", "badminton" ],
+        tags: ["basketball", "badminton"],
     },
     {
         image: "/assets/images/projects/project2.webp",
@@ -220,7 +236,7 @@ export const ProjectsContent = [
         title: "Lucknow",
         description:
             "A multipurpose court that combines a tennis court and a basketball court is the best solution when space is limited. It is commonly used in schools where space is scarce.",
-        tags: [ "basketball", "tennis" ],
+        tags: ["basketball", "tennis"],
     },
     {
         image: "/assets/images/projects/project3.webp",
@@ -228,7 +244,7 @@ export const ProjectsContent = [
         title: "Bhinga Stadium, Sharavasti",
         description:
             "Our premium teak wooden badminton court featuring high-quality vinyl flooring was constructed at Bhinga Stadium, Sharavasti, exemplifying our commitment to top-class quality.",
-        tags: [ "badminton" ],
+        tags: ["badminton"],
     },
     {
         image: "/assets/images/projects/project4.webp",
@@ -236,7 +252,7 @@ export const ProjectsContent = [
         title: "Gomti Nagar, Lucknow",
         description:
             "Pickleball is one of the fastest-growing sports, and we have proudly constructed numerous courts. Our project in Gomti Nagar, Lucknow, showcases our commitment to quality and innovation.",
-        tags: [ "pickleball" ],
+        tags: ["pickleball"],
     },
     {
         image: "/assets/images/projects/project5.webp",
@@ -244,7 +260,7 @@ export const ProjectsContent = [
         title: "CPMG Office, Lucknow",
         description:
             "CPMG Office, Lucknow has chosen us to build a state-of-the-art badminton court, ensuring top-quality construction and a perfect playing experience.",
-        tags: [ "badminton" ],
+        tags: ["badminton"],
     },
     {
         image: "/assets/images/projects/project6.webp",
@@ -252,7 +268,7 @@ export const ProjectsContent = [
         title: "Loreto School, Lucknow",
         description:
             "We have expertly designed and constructed a top-quality walking track near Loreto School, Lucknow, ensuring durability, safety, and a superior walking experience for all users.",
-        tags: [ "walking" ],
+        tags: ["walking"],
     },
     {
         image: "/assets/images/projects/project7.webp",
@@ -260,7 +276,7 @@ export const ProjectsContent = [
         title: "KD Singh Babu Stadium, Lucknow",
         description:
             "KD Singh Babu Stadium, Lucknow's most renowned sports venue, now features a high-quality volleyball court constructed by us, designed for professional and recreational play.",
-        tags: [ "volleyball" ],
+        tags: ["volleyball"],
     },
     {
         image: "/assets/images/projects/project8.webp",
@@ -268,7 +284,7 @@ export const ProjectsContent = [
         title: "Bhopal",
         description:
             "We have expertly crafted a superior Pickleball court in Bhopal, offering a resilient, tournament-grade surface for players of all levels.",
-        tags: [ "pickleball" ],
+        tags: ["pickleball"],
     },
     {
         image: "/assets/images/projects/project9.webp",
@@ -276,7 +292,7 @@ export const ProjectsContent = [
         title: "Bhinga Stadium, Shravasti",
         description:
             "Bhinga Stadium, Shravasti, we have built a world-class tennis court, meeting international standards.",
-        tags: [ "tennis" ],
+        tags: ["tennis"],
     },
     {
         image: "/assets/images/projects/project10.webp",
@@ -284,7 +300,7 @@ export const ProjectsContent = [
         title: "Skylark School, Lucknow",
         description:
             "We are proud to have designed and constructed a high-quality half-basketball court and a professional-grade badminton court at Skylark School, Lucknow. Built with precision and durable materials, these courts provide students with a safe, reliable, and enjoyable sports experience, enhancing their athletic development.",
-        tags: [ "basketball", "badminton" ],
+        tags: ["basketball", "badminton"],
     },
     {
         image: "/assets/images/projects/project11.webp",
@@ -292,7 +308,7 @@ export const ProjectsContent = [
         title: "Delhi",
         description:
             "Constructing a clay court is a highly specialized and challenging task that requires expertise and precision. We are proud to have successfully built a top-quality clay court in Delhi",
-        tags: [ "tennis" ],
+        tags: ["tennis"],
     },
     {
         image: "/assets/images/projects/project12.webp",
@@ -300,7 +316,7 @@ export const ProjectsContent = [
         title: "Indira Nagar, Lucknow",
         description:
             "We have skillfully designed and built a top-quality rooftop Pickleball court in Indira Nagar, Lucknow, making the most of limited space while maintaining exceptional standards. If you're facing space constraints, get in touch with us—we can create a custom Pickleball court wherever you need it.",
-        tags: [ "pickleball" ],
+        tags: ["pickleball"],
     },
     {
         image: "/assets/images/projects/project13.webp",
@@ -308,7 +324,7 @@ export const ProjectsContent = [
         title: "Alpha School",
         description:
             "Enjoy a game of pickleball on the well-maintained courts at Alpha School. Whether you're a beginner or an experienced player, this space is perfect for casual rallies, competitive matches, and community fun. Grab your paddle and join in the excitement.",
-        tags: [ "pickleball" ],
+        tags: ["pickleball"],
     },
     {
         image: "/assets/images/projects/project14.webp",
@@ -316,7 +332,7 @@ export const ProjectsContent = [
         title: "Raj Bhawan, Lucknow",
         description:
             "Raj Bhawan, Lucknow, we have crafted a dynamic and colorful skating track, offering a seamless and exhilarating experience for skaters.",
-        tags: [ "skating" ],
+        tags: ["skating"],
     },
     {
         image: "/assets/images/projects/project15.webp",
@@ -324,7 +340,7 @@ export const ProjectsContent = [
         title: "Centrum Club, Lucknow",
         description:
             "The first pickleball court in Lucknow was constructed by the sports facility at the Centrum Club, featuring an exceptional color combination and premium flooring.",
-        tags: [ "pickleball" ],
+        tags: ["pickleball"],
     },
 ];
 
