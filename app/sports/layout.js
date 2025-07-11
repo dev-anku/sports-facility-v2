@@ -5,7 +5,7 @@ import React from "react";
 
 export const metadata = {
     title: {
-        default: "Sports We Offer | Sports Facility, Lucknow, Uttar Pradesh",
+        default: "Sports We Offer",
         template: "%s | Sports Facility, Lucknow, Uttar Pradesh",
     },
     description:
