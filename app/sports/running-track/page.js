@@ -12,7 +12,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Running Track Construction in India",
     description:
-        "Professional running track construction with EPDM, PU, and acrylic surfaces. Built for athletic training and multi-use across India. Based in Uttar Pradesh with pan-India execution.",
+        "Expert Running Track Construction services for schools, stadiums, and sports complexes using durable, high-performance synthetic and PU track systems.",
     keywords:
         "running track construction, synthetic track India, EPDM running track, PU athletic track, 200m track installation, sports track contractors India, jogging track builder UP",
     alternates: {
