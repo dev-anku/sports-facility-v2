@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "EPDM Sports Flooring",
     description:
-        "Durable EPDM rubber flooring for sports courts across India. Installed with weatherproof material, anti-skid finish, and shock-absorbing layers by trusted experts based in Uttar Pradesh.",
+        "Discover expert EPDM flooring construction services for durable, safe, and high-performance sports surfaces tailored for indoor and outdoor use.",
     keywords:
         "EPDM sports flooring, outdoor rubber flooring, EPDM court surface, playground surfacing India, EPDM flooring contractors, EPDM flooring Uttar Pradesh",
     alternates: {
