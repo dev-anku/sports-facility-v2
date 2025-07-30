@@ -16,7 +16,7 @@ export const metadata = {
     keywords:
         "badminton court construction India, indoor badminton flooring, wooden badminton court, synthetic badminton court installation, vinyl sports flooring India, badminton contractors UP",
     alternates: {
-        canonical: "https://sports-facility.in/sports/badminton-court/",
+        canonical: "https://sports-facility.in/sports/badminton-court",
     },
 };
 
