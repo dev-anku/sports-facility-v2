@@ -12,7 +12,7 @@ export const metadata = {
         "synthetic sports flooring, acrylic court surface, outdoor court flooring India, synthetic flooring UP, synthetic basketball court, synthetic tennis court, synthetic turf installers",
     alternates: {
         canonical:
-            "https://sports-facility.in/sports/synthetic-sports-flooring/",
+            "https://sports-facility.in/sports/synthetic-sports-flooring",
     },
 };
 
