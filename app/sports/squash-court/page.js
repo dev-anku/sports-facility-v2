@@ -11,7 +11,7 @@ export const metadata = {
     keywords:
         "squash court construction, squash court flooring, wooden squash court India, squash court builders, glass wall squash court, squash court contractors India, indoor squash court UP",
     alternates: {
-        canonical: "https://sports-facility.in/sports/squash-court/",
+        canonical: "https://sports-facility.in/sports/squash-court",
     },
 };
 
