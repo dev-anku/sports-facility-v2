@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Volleyball Court Construction in India",
     description:
-        "Indoor and outdoor volleyball court construction across India with synthetic, acrylic, and sand surfaces. Built to standard dimensions. Based in Uttar Pradesh, serving pan-India.",
+        "Expert volleyball court construction services for indoor and outdoor setups, offering durable surfaces and professional-grade installation.",
     keywords:
         "volleyball court construction, outdoor volleyball court India, indoor volleyball flooring, synthetic court builder, sand volleyball court, volleyball contractors UP",
     alternates: {
