@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Wooden Sports Flooring",
     description:
-        "Professional-grade wooden flooring installation for indoor sports courts in UP. Slip-resistant, shock-absorbent, and built for high performance and long-term use.",
+        "Explore top-quality Badminton wooden flooring and Sports flooring solutions designed for professional performance, durability, and player safety.",
     keywords:
         "wooden sports flooring, indoor court flooring, teak maple flooring UP, gym flooring installation, sports flooring contractors India",
     alternates: {
