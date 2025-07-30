@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Squash Court Construction in India",
     description:
-        "Professional squash court construction services with wooden flooring, plastered and glass walls, and lighting. Based in Uttar Pradesh with pan-India execution.",
+        "Professional squash court construction services with high-quality materials, precision design, and durable finishes for competitive and recreational play for schools and clubs.",
     keywords:
         "squash court construction, squash court flooring, wooden squash court India, squash court builders, glass wall squash court, squash court contractors India, indoor squash court UP",
     alternates: {
