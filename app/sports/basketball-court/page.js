@@ -16,7 +16,7 @@ export const metadata = {
     keywords:
         "basketball court construction India, outdoor basketball flooring, wooden basketball court, synthetic basketball court builders, PU sports flooring, basketball contractors India, court construction UP",
     alternates: {
-        canonical: "https://sports-facility.in/sports/basketball-court/",
+        canonical: "https://sports-facility.in/sports/basketball-court",
     },
 };
 
