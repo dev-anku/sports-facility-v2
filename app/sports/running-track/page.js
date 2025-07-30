@@ -16,7 +16,7 @@ export const metadata = {
     keywords:
         "running track construction, synthetic track India, EPDM running track, PU athletic track, 200m track installation, sports track contractors India, jogging track builder UP",
     alternates: {
-        canonical: "https://sports-facility.in/sports/running-track/",
+        canonical: "https://sports-facility.in/sports/running-track",
     },
 };
 
