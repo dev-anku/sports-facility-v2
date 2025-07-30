@@ -12,7 +12,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Badminton Court Construction in India",
     description:
-        "Indoor and outdoor badminton court construction services across India with wooden, synthetic, and vinyl surfaces. Engineered for safety, speed, and precision. Based in Uttar Pradesh.",
+        "Discover expert Basketball court construction and premium Sports flooring solutions tailored for performance, durability, and safety across all play levels.",
     keywords:
         "badminton court construction India, indoor badminton flooring, wooden badminton court, synthetic badminton court installation, vinyl sports flooring India, badminton contractors UP",
     alternates: {
