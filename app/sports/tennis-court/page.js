@@ -11,7 +11,7 @@ export const metadata = {
     keywords:
         "tennis court construction, synthetic tennis court India, acrylic tennis court, tennis court contractors, tennis court builders in Uttar Pradesh, outdoor tennis court flooring",
     alternates: {
-        canonical: "https://sports-facility.in/sports/tennis-court/",
+        canonical: "https://sports-facility.in/sports/tennis-court",
     },
 };
 
