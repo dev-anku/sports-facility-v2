@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Tennis Court Construction in India",
     description:
-        "Expert tennis court construction services across India. Synthetic, clay, and turf surfaces designed to international standards. Installed by specialists based in Uttar Pradesh.",
+        "Professional Tennis court construction services with high-quality materials and precision design for lasting performance on all types of surfaces.",
     keywords:
         "tennis court construction, synthetic tennis court India, acrylic tennis court, tennis court contractors, tennis court builders in Uttar Pradesh, outdoor tennis court flooring",
     alternates: {
