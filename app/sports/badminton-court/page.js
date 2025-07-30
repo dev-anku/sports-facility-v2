@@ -12,7 +12,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Badminton Court Construction in India",
     description:
-        "Discover expert Basketball court construction and premium Sports flooring solutions tailored for performance, durability, and safety across all play levels.",
+        "Premium Badminton wooden flooring solutions for courts with superior grip, shock absorption, and durability, ideal for professional and recreational play.",
     keywords:
         "badminton court construction India, indoor badminton flooring, wooden badminton court, synthetic badminton court installation, vinyl sports flooring India, badminton contractors UP",
     alternates: {
