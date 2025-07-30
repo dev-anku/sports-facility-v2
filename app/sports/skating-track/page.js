@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Skating Track Construction in India",
     description:
-        "Expert skating track and roller skating rink construction across India. Durable concrete, PU, and synthetic skating surfaces. Based in Uttar Pradesh, serving pan-India.",
+        "Expert skating track construction in India offering durable, smooth, and weather-resistant surfaces for professional, school, and recreational use.",
     keywords:
         "skating track construction, roller skating rink India, concrete skating surface, PU skating track, outdoor skating court builders, skating contractors Uttar Pradesh",
     alternates: {
