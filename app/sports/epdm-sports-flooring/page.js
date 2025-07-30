@@ -11,7 +11,7 @@ export const metadata = {
     keywords:
         "EPDM sports flooring, outdoor rubber flooring, EPDM court surface, playground surfacing India, EPDM flooring contractors, EPDM flooring Uttar Pradesh",
     alternates: {
-        canonical: "https://sports-facility.in/sports/epdm-sports-flooring/",
+        canonical: "https://sports-facility.in/sports/epdm-sports-flooring",
     },
 };
 
