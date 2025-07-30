@@ -11,7 +11,7 @@ export const metadata = {
     keywords:
         "volleyball court construction, outdoor volleyball court India, indoor volleyball flooring, synthetic court builder, sand volleyball court, volleyball contractors UP",
     alternates: {
-        canonical: "https://sports-facility.in/sports/volleyball-court/",
+        canonical: "https://sports-facility.in/sports/volleyball-court",
     },
 };
 
