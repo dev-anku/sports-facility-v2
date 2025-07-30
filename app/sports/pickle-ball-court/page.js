@@ -16,7 +16,7 @@ export const metadata = {
     keywords:
         "pickleball court construction, outdoor pickleball court India, acrylic pickleball surface, pickleball contractors India, UP pickleball court builders, pickleball flooring systems",
     alternates: {
-        canonical: "https://sports-facility.in/sports/pickle-ball-court/",
+        canonical: "https://sports-facility.in/sports/pickle-ball-court",
     },
 };
 
