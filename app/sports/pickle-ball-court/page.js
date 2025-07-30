@@ -12,7 +12,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Pickle Ball Court Construction in India",
     description:
-        "Professional pickleball court construction across India using acrylic, synthetic, and concrete surfaces. Durable, weatherproof layouts delivered from Uttar Pradesh nationwide.",
+        "Specialists in pickle ball court construction in India, delivering high-quality, durable courts for schools, clubs, and recreational facilities nationwide.",
     keywords:
         "pickleball court construction, outdoor pickleball court India, acrylic pickleball surface, pickleball contractors India, UP pickleball court builders, pickleball flooring systems",
     alternates: {
