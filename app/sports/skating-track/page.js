@@ -11,7 +11,7 @@ export const metadata = {
     keywords:
         "skating track construction, roller skating rink India, concrete skating surface, PU skating track, outdoor skating court builders, skating contractors Uttar Pradesh",
     alternates: {
-        canonical: "https://sports-facility.in/sports/skating-track/",
+        canonical: "https://sports-facility.in/sports/skating-track",
     },
 };
 
