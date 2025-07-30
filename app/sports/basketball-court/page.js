@@ -12,7 +12,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Basketball Court Construction in India",
     description:
-        "Discover expert Basketball court construction and premium Sports flooring solutions tailored for performance, durability, and safety across all play levels.",
+        "Expert Basketball court construction and premium Sports flooring solutions tailored for performance, durability, and safety across all play levels.",
     keywords:
         "basketball court construction India, outdoor basketball flooring, wooden basketball court, synthetic basketball court builders, PU sports flooring, basketball contractors India, court construction UP",
     alternates: {
