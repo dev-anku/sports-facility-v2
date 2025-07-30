@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 export const metadata = {
     title: "Synthetic Sports Flooring",
     description:
-        "Top-quality synthetic sports flooring for outdoor and indoor courts across India. UV-resistant, anti-skid, and long-lasting surfaces built to international standards.",
+        "Get premium Sports flooring and expert Tennis court construction services designed for durability, performance, and all-weather play conditions.",
     keywords:
         "synthetic sports flooring, acrylic court surface, outdoor court flooring India, synthetic flooring UP, synthetic basketball court, synthetic tennis court, synthetic turf installers",
     alternates: {
