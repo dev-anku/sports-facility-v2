@@ -379,3 +379,26 @@ export const igImages = [
     "/assets/images/instagram/post3.png",
     "/assets/images/instagram/post4.png",
 ];
+
+export const faqData = [
+    {
+        question: "What types of sports facilities do you specialize in?",
+        answer:
+            "We specialize in a wide range of sports facilities including basketball courts, tennis courts, badminton courts, pickleball courts, running tracks, and multi-sport complexes.",
+    },
+    {
+        question: "Do you provide maintenance services for existing facilities?",
+        answer:
+            "Yes, we offer comprehensive maintenance services to ensure your sports facilities remain in top condition. This includes regular inspections, repairs, and resurfacing as needed.",
+    },
+    {
+        question: "Can you customize the design of the sports facility?",
+        answer:
+            "Absolutely! We work closely with our clients to create custom designs that meet their specific needs and preferences, ensuring the facility is tailored to the intended use.",
+    },
+    {
+        question: "What materials do you use for construction?",
+        answer:
+            "We use high-quality materials that are durable and suitable for the specific sport. This includes synthetic surfaces, wooden flooring, and specialized coatings for optimal performance.",
+    },
+]

@@ -21,6 +21,8 @@ import Link from "next/link";
 import Image from "next/image";
 import GallerySlider from "@/components/GallerySlider";
 import InstagramSection from "@/components/InstagramSection";
+import { FAQ } from "@/components/FAQ";
+import { faqData } from "@/public/constants"
 
 const HeroSection = () => {
   return (
@@ -168,6 +170,23 @@ const ProductsSection = () => {
   );
 };
 
+const FAQSection = () =>{
+  return (
+    <section 
+      id="faq" 
+      className="flex flex-col gap-8 mt-10 mx-60"
+      data-aos="fade-right"
+      >
+    <div>
+      <h1 className="font-heading text-6xl uppercase text-center">Frequently Asked Questions</h1>
+    </div>
+    <div>
+      <FAQ faqData={faqData}/>
+    </div>
+    </section>
+  );
+}
+
 const ServicesSection = () => {
   return (
     <section
@@ -287,6 +306,7 @@ const Page = () => {
       <ServicesSection />
       <InstagramSection />
       <Gallery />
+      <FAQSection />
     </>
   );
 };
