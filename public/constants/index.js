@@ -402,3 +402,237 @@ export const faqData = [
             "We use high-quality materials that are durable and suitable for the specific sport. This includes synthetic surfaces, wooden flooring, and specialized coatings for optimal performance.",
     },
 ]
+export const faqDataWooden=[
+    {
+    question: "Why is wooden flooring preferred for indoor sports courts?",
+    answer: "Wooden floors offer excellent shock absorption, grip, and performance, making them ideal for sports like badminton, basketball, and squash."
+  },
+  {
+    question: "What type of wood is used for sports flooring?",
+    answer: "Maple and beechwood are most commonly used due to their strength, durability, and uniform grain structure."
+  },
+  {
+    question: "Is wooden flooring safe for sports?",
+    answer: "Yes. When installed with a proper substructure, wooden flooring helps reduce stress on joints and prevents injuries."
+  },
+  {
+    question: "How do you maintain wooden sports flooring?",
+    answer: "Keep it clean and dry. Use a soft mop regularly and avoid water spillage. Recoating or sanding may be required every few years based on usage."
+  },
+  {
+    question: "Can wooden sports flooring be used in humid climates?",
+    answer: "Yes, but proper moisture barriers and climate control are essential to prevent warping or expansion of the wood."
+  },
+  {
+    question: "How long does wooden sports flooring last?",
+    answer: "With good care and maintenance, wooden flooring can easily last 15–20 years or more."
+  }
+]
+
+export const faqDataBadminton=[
+ {
+    question: "What kind of flooring is best for badminton courts?",
+    answer: "For serious play, a wooden floor with a synthetic top layer (like PVC or PU) is ideal. It offers great grip, bounce, and comfort."
+  },
+  {
+    question: "Is wooden flooring better than synthetic?",
+    answer: "Yes — wooden flooring provides better shock absorption and performance. Synthetic floors are easier to maintain and work well for casual use."
+  },
+  {
+    question: "Can you install badminton flooring over a concrete surface?",
+    answer: "Yes, but a cushioning layer (like foam or rubber) should be added first. Playing directly on concrete isn't recommended for long-term use."
+  },
+  {
+    question: "How long does a badminton floor typically last?",
+    answer: "With proper care, a high-quality badminton court floor can last 10–15 years or more."
+  },
+  {
+    question: "Do I really need anti-skid flooring for badminton?",
+    answer: "Absolutely. The sport involves quick movements, and anti-skid surfaces help prevent slips and injuries."
+  },
+  {
+    question: "What’s the best way to maintain a badminton court floor?",
+    answer: "Keep it clean using a soft mop and avoid harsh chemicals. Also, ensure players wear non-marking shoes."
+  },
+  {
+    question: "Can the same floor be used for other indoor sports?",
+    answer: "Some synthetic floors can handle multiple sports. But wooden courts should ideally be reserved for badminton to preserve their quality."
+  },
+  {
+    question: "What thickness should a good badminton floor have?",
+    answer: "Synthetic surfaces are usually 4.5–7 mm thick. Wooden courts with understructure can be 20 mm or more, depending on design."
+  }
+]
+
+export const faqDataBasketball=[
+    {
+    question: "What type of flooring is best for basketball courts?",
+    answer: "Hardwood maple is preferred for professional courts, but synthetic or modular flooring is also popular for multi-purpose or outdoor use."
+  },
+  {
+    question: "Can basketball courts be used for other sports?",
+    answer: "Yes, many indoor courts use multi-sport flooring suitable for volleyball, badminton, or futsal."
+  },
+  {
+    question: "Is shock absorption important for basketball courts?",
+    answer: "Yes, good shock absorption helps reduce joint stress and prevent injuries during high-impact movements."
+  },
+  {
+    question: "How do I maintain a basketball court floor?",
+    answer: "Regular cleaning and periodic refinishing (for wood) is essential. Use only non-marking basketball shoes."
+  }
+]
+
+export const faqDataEPDM=[
+    {
+    question: "What is EPDM flooring?",
+    answer: "EPDM (Ethylene Propylene Diene Monomer) is a rubber surface used for playgrounds, running tracks, and outdoor courts due to its durability and safety."
+  },
+  {
+    question: "Where is EPDM flooring commonly used?",
+    answer: "It's commonly used in playgrounds, sports areas, walking paths, and outdoor gyms."
+  },
+  {
+    question: "Is EPDM surface slip-resistant?",
+    answer: "Yes, it has natural anti-slip properties, making it safe even when wet."
+  },
+  {
+    question: "How long does EPDM flooring last?",
+    answer: "With proper installation and maintenance, EPDM can last 8–15 years."
+  }
+]
+
+export const faqDataPickleball=[
+    {
+    question: "What flooring is used for pickleball courts?",
+    answer: "Outdoor courts typically use acrylic sport surfaces on asphalt or concrete, while indoor courts may use wood or synthetic options."
+  },
+  {
+    question: "Can I convert a tennis or badminton court for pickleball?",
+    answer: "Yes, with proper markings and nets, both surfaces can be adapted for pickleball play."
+  },
+  {
+    question: "Is cushioning important for pickleball flooring?",
+    answer: "Yes, especially for indoor play — cushioned flooring helps reduce strain on knees and ankles."
+  }
+]
+
+export const faqDataRunning=[
+     {
+    question: "What surface is best for running tracks?",
+    answer: "Polyurethane or rubber-based surfaces like EPDM or Tartan are best for performance and injury prevention."
+  },
+  {
+    question: "Are synthetic tracks weather-resistant?",
+    answer: "Yes, most synthetic running tracks are UV and weather-resistant, suitable for all climates."
+  },
+  {
+    question: "How thick should a running track surface be?",
+    answer: "Track thickness typically ranges from 10mm to 13mm, depending on usage and level of competition."
+  }
+]
+
+export const faqDataSkating=[
+    {
+    question: "What flooring is ideal for skating rinks?",
+    answer: "Polyurethane-coated concrete or synthetic polymer surfaces are ideal due to their smoothness and durability."
+  },
+  {
+    question: "Can skating flooring be used outdoors?",
+    answer: "Yes, specialized outdoor polymer tiles are designed to withstand the elements and offer good glide."
+  },
+  {
+    question: "Is maintenance difficult for skating surfaces?",
+    answer: "Not really — regular sweeping and occasional cleaning keep it in great condition."
+  }
+]
+
+export const faqDataSquash=[
+    {
+    question: "What is the standard flooring for squash courts?",
+    answer: "Beechwood or maple hardwood floors with anti-skid finish are most commonly used for squash courts."
+  },
+  {
+    question: "Why is flooring important in squash?",
+    answer: "The surface needs to provide grip and slight shock absorption, as squash involves fast and repetitive movements."
+  },
+  {
+    question: "How do you clean squash court flooring?",
+    answer: "Use a microfiber mop and avoid excess water. Keep the surface dry and dust-free to prevent slips."
+  }
+]
+
+export const faqDataSynthetic=[
+    {
+    question: "What is synthetic sports flooring?",
+    answer: "It's a man-made surface, often made of acrylic, PU, or rubber, designed for performance and durability across multiple sports."
+  },
+  {
+    question: "Which sports can be played on synthetic flooring?",
+    answer: "Sports like tennis, basketball, volleyball, and badminton can all be played depending on the type of synthetic surface."
+  },
+  {
+    question: "Is synthetic flooring eco-friendly?",
+    answer: "Some options use recycled rubber or low-VOC materials, but it depends on the manufacturer."
+  }
+]
+
+export const faqDataTennis=[
+    {
+    question: "What are the different types of tennis court surfaces?",
+    answer: "Common surfaces include clay, grass, hard court (acrylic), and synthetic turf."
+  },
+  {
+    question: "Is synthetic tennis flooring good for outdoor use?",
+    answer: "Yes, synthetic flooring like acrylic is UV-resistant, weatherproof, and low-maintenance."
+  },
+  {
+    question: "What surface is best for beginners?",
+    answer: "Acrylic or synthetic turf courts offer better grip and a slower ball bounce, making them beginner-friendly."
+  }
+]
+
+export const faqDataVolleyball=[
+    {
+    question: "What is the ideal flooring for indoor volleyball?",
+    answer: "Wooden or synthetic PU floors are ideal for shock absorption and traction in indoor volleyball."
+  },
+  {
+    question: "Can volleyball be played on outdoor surfaces?",
+    answer: "Yes, especially on sand for beach volleyball, or synthetic turf and acrylic for outdoor recreational courts."
+  },
+  {
+    question: "What features are important in volleyball court flooring?",
+    answer: "Anti-skid surface, cushioning, and durability are key to safe and effective play."
+  }
+]
+
+export const faqDataAboutUs=[{
+    question: "What services does your sports flooring company offer?",
+    answer: "We provide end-to-end sports flooring solutions, including the design, supply, and installation of indoor and outdoor courts for sports like badminton, tennis, volleyball, basketball, and more."
+  },
+  {
+    question: "How experienced is your team in sports flooring installations?",
+    answer: "With over [15] years of hands-on experience, we’ve completed a wide range of custom court installations across schools, stadiums, clubs, and private arenas throughout India."
+  },
+  {
+    question: "Do you offer customized flooring for different sports?",
+    answer: "Yes, we specialize in customized sports flooring solutions based on the type of sport, player level, budget, and venue size. Our surfaces are tailored for performance, safety, and durability."
+  },
+  {
+    question: "What makes your company a trusted sports flooring provider?",
+    answer: "Our commitment to quality materials, expert craftsmanship, and timely project delivery has made us a trusted name in India’s sports infrastructure industry."
+  },
+  {
+    question: "Which regions in India do you serve?",
+    answer: "We offer nationwide (Pan India) coverage, handling sports flooring projects in metro cities as well as tier-2 and tier-3 towns across India."
+  },
+  {
+    question: "Can you handle both indoor and outdoor sports facility projects?",
+    answer: "Absolutely. From wooden indoor courts to weather-resistant synthetic outdoor surfaces, we deliver complete flooring solutions for all environments."
+  },
+  {
+    question: "Do you have samples or completed project references available?",
+    answer: "Yes, you can visit our projects section to view all our projects done nation wide for diffrent types of flooring."
+  }
+]

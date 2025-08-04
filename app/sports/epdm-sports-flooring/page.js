@@ -1,8 +1,10 @@
-import { images, sampleImages, sportsContent } from "@/public/constants";
+import { faqDataEPDM, images, sampleImages, sportsContent } from "@/public/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Button from "@/components/ui/Button";
+import { FAQ } from "@/components/FAQ";
+import { faqDataEPDM } from "@/public/constants"
 
 export const metadata = {
     title: "EPDM Sports Flooring",
@@ -184,10 +186,30 @@ const EPDMFlooring = () => {
     );
 };
 
+const FAQSection = () => {
+  return (
+    <section 
+      id="faq" 
+      className="flex flex-col gap-8 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-40 xl:mx-60"
+      data-aos="fade-right"
+    >
+      <div>
+        <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl uppercase text-center">
+          Frequently Asked Questions
+        </h1>
+      </div>
+      <div>
+        <FAQ faqData={faqDataEPDM} />
+      </div>
+    </section>
+  );
+};
+
 const page = () => {
     return (
         <>
             <EPDMFlooring />
+            <FAQSection />
         </>
     );
 };

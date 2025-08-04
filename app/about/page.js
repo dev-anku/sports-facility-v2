@@ -2,6 +2,8 @@ import InstagramSection from "@/components/InstagramSection";
 import { images, sampleImages } from "@/public/constants";
 import Image from "next/image";
 import React from "react";
+import { FAQ } from "@/components/FAQ";
+import { faqDataAboutUs } from "@/public/constants"
 
 export const metadata = {
     title: "About Us",
@@ -80,12 +82,32 @@ const AboutSection = () => {
     );
 };
 
+const FAQSection = () => {
+  return (
+    <section 
+      id="faq" 
+      className="flex flex-col gap-8 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-40 xl:mx-60"
+      data-aos="fade-right"
+    >
+      <div>
+        <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl uppercase text-center">
+          Frequently Asked Questions
+        </h1>
+      </div>
+      <div>
+        <FAQ faqData={faqDataAboutUs} />
+      </div>
+    </section>
+  );
+};
+
 const page = () => {
     return (
         <>
             <HeroSection />
             <InstagramSection />
             <AboutSection />
+            <FAQSection />
         </>
     );
 };
