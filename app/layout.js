@@ -26,6 +26,28 @@ export default function RootLayout({ children }) {
                 <Navbar />
                 <main>{children}</main>
                 <Footer />
+   <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "sports-facility",
+      "image": "https://sports-facility.in/logo.png",
+      "url": "https://sports-facility.in/",
+      "telephone": "+91 8009483311",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "529/50, Rahim Nagar Rd, Mahanagar",
+        "addressLocality": "Lucknow",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "226006",
+        "addressCountry": "IN"
+      },
+      "description": "We build high-quality sports facilities that inspire athletes and communities for sports like basketball court construction."
+    })
+  }}
+/>
             </body>
         </html>
     );
