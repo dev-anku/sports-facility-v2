@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 import Button from "@/components/ui/Button";
 import { FAQ } from "@/components/FAQ";
-import { faqDataEPDM } from "@/public/constants"
 
 export const metadata = {
     title: "EPDM Sports Flooring",
