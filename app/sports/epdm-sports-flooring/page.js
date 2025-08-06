@@ -1,4 +1,4 @@
-import { faqDataEPDM, images, sampleImages, sportsContent } from "@/public/constants";
+import {faqDataEPDM, images, sampleImages, sportsContent } from "@/public/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

@@ -1,9 +1,12 @@
 export const navLinks = [
+    { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
     { href: "/sports", label: "Sports" },
     { href: "/services", label: "Services" },
     { href: "/projects", label: "Projects" },
     { href: "/contact", label: "Contact Us" },
+    { href: "/careers", label: "Careers" },
+
 ];
 
 export const images = [
