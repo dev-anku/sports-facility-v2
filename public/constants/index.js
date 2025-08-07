@@ -6,7 +6,7 @@ export const navLinks = [
     { href: "/projects", label: "Projects" },
     { href: "/contact", label: "Contact Us" },
     { href: "/careers", label: "Careers" },
-
+    { href: "/blogs", label: "Blogs" }
 ];
 
 export const images = [
@@ -639,3 +639,35 @@ export const faqDataAboutUs=[{
     answer: "Yes, you can visit our projects section to view all our projects done nation wide for diffrent types of flooring."
   }
 ]
+
+export const blogs = [
+  {
+    title: 'FIFA World Cup 2026: Complete Guide to Qualifiers, Teams and much more',
+    excerpt: 'Get all updates on FIFA World Cup 2026 qualifiers, teams, schedule, match format and where to watch.',
+    date: 'August 8, 2025',
+    slug: 'fifa-world-cup-2026-qualifiers-teams-schedule',
+    image: "/assets/images/blogs/fifa2.jpeg",
+  },
+  {
+    title: 'Indian National Criclet Team: Full Guide 2025-26 Schedule and Rivalries',
+    excerpt: 'Explore Indian Cricket team and the top rivalries it has in 2025-26, know more about star players and where to watch live.',
+    date: 'August 7, 2025',
+    slug: 'indian-national-cricket-team-schedule-rivalries',
+    image: '/assets/images/blogs/cricket1.jpeg',
+  },
+  {
+    title: 'Synthetic Badminton Court: Revolutionizing Sports Flooring with SportsFacility',
+    excerpt: 'SportsFacilitiy’s synthetic badminton court flooring is designed for durability and performance.',
+    date: 'August 3, 2025',
+    slug: 'synthetic-badminton-court',
+    image: '/assets/images/blogs/synthetic1.webp',
+  },
+];
+
+export const blogImages = [
+    "/assets/images/blog/fifa1.jpeg",
+    "/assets/images/blog/fifa2.jpeg",
+    "/assets/images/blog/cricket1.jpeg",
+    "/assets/images/blog/cricket2.jpeg",
+    "/assets/images/blog/synthetic1.webp",
+];
