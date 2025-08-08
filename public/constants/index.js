@@ -469,20 +469,24 @@ export const faqDataBadminton=[
 
 export const faqDataBasketball=[
     {
-    question: "What type of flooring is best for basketball courts?",
-    answer: "Hardwood maple is preferred for professional courts, but synthetic or modular flooring is also popular for multi-purpose or outdoor use."
+    question: "What is the best surface for an outdoor basketball court?",
+    answer: "Grass, concrete, and asphalt are popular options world-wide. The most popular basketball flooring is for the outdoor basketball court is asphalt because of its performance, better durability for the outdoor environment and affordability for every player and sport arenas. Asphalt surfaces provide excellent footwork grips and shock absorption, making them ideal for preventing risky injuries during the basketball game."
   },
   {
-    question: "Can basketball courts be used for other sports?",
-    answer: "Yes, many indoor courts use multi-sport flooring suitable for volleyball, badminton, or futsal."
+    question: "Outdoor basketball court surface material",
+    answer: "Outdoor basketball courts mostly use surfaces like asphalt or concrete, with acrylic coatings often added for enhanced durability and performance of the basketball court."
   },
   {
-    question: "Is shock absorption important for basketball courts?",
-    answer: "Yes, good shock absorption helps reduce joint stress and prevent injuries during high-impact movements."
+    question: "What is a basketball court surface made up of?",
+    answer: "Indoor basketball courts are basically made up of polished wood for the wooden basketball floorings, usually maple or teak wood, with 10 feet (3.048 m)-high rims on each basket."
   },
   {
-    question: "How do I maintain a basketball court floor?",
-    answer: "Regular cleaning and periodic refinishing (for wood) is essential. Use only non-marking basketball shoes."
+    question: "What is the alternative to concrete for outdoor basketball court?",
+    answer: "Gravel pavers are a great alternative to concrete when you are building an outdoor basketball court. They create smooth flat, sturdy surface used with the interlocking tiles."
+  },
+  {
+    question: "What is the best flooring for a basketball court?",
+    answer: "Maple hardwood is the best standard wood for basketball court flooring. It offers super performance as compare to other wood flooring and is the first choice for both professional and amateur arenas. It always used in the NBA tournaments and other international tournaments world-wide."
   }
 ]
 
@@ -670,4 +674,46 @@ export const blogImages = [
     "/assets/images/blogs/cricket1.jpeg",
     "/assets/images/blogs/cricket2.jpeg",
     "/assets/images/blogs/synthetic1.webp",
+];
+
+export const badmintonFlooringTypes = [
+  {
+    title: "Wooden Flooring",
+    image: "/assets/images/flooring/woodenFlooring.jpg",
+    description:
+      "Wooden flooring is the top choice for professional badminton courts. It provides excellent shock absorption, anti-skid properties, and is gentle on players’ joints. It’s often used in indoor stadiums and tournament venues.",
+  },
+  {
+    title: "Synthetic Flooring",
+    image: "/assets/images/flooring/syntheticFlooring.png",
+    description:
+      "Acrylic flooring is a cost-effective, durable surface suitable for both indoor and outdoor courts. It offers good bounce and grip, and is available in multiple color options, making it ideal for schools and clubs.",
+  },
+  {
+    title: "PVC Mat Flooring",
+    image: "/assets/images/badminton/pvc.jpg",
+    description:
+      "PVC badminton mats are modular and portable, making them perfect for temporary setups or multi-purpose halls. They are designed with a cushioned layer to prevent injuries and provide uniform playing comfort.",
+  },
+];
+
+export const basketballFlooringTypes = [
+  {
+    title: "Wooden Flooring",
+    image: "/assets/images/flooring/woodenFlooring.jpg",
+    description:
+      "Wooden flooring is the top choice for professional basketball courts. It provides excellent shock absorption, anti-skid properties, and is gentle on players’ joints. It’s often used in indoor stadiums and tournament venues.",
+  },
+  {
+    title: "Synthetic Flooring",
+    image: "/assets/images/flooring/acrylic.jpeg",
+    description:
+      "Synthetic flooring is a cost-effective, durable surface suitable for both indoor and outdoor courts. It offers good bounce and grip, and is available in multiple color options, making it ideal for schools and clubs.",
+  },
+  {
+    title: "PP Tiles Flooring",
+    image: "/assets/images/flooring/syntheticFlooring.png",
+    description:
+      "PP tiles , or polypropylene tiles, are a type of modular flooring made from a durable, recyclable plastic called polypropylene. They are known for their interlocking design, which allows for easy installation without adhesive or special tools for the installation.",
+  },
 ];

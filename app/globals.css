@@ -80,3 +80,34 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* globals.css or component-level style tag */
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.75rem; /* rounded-xl */
+  overflow: hidden;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+}
