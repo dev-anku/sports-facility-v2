@@ -655,19 +655,19 @@ export const blogs = [
     slug: 'indian-national-cricket-team-schedule-rivalries',
     image: '/assets/images/blogs/cricket1.jpeg',
   },
-  {
-    title: 'Synthetic Badminton Court: Revolutionizing Sports Flooring with SportsFacility',
-    excerpt: 'SportsFacilitiy’s synthetic badminton court flooring is designed for durability and performance.',
-    date: 'August 3, 2025',
-    slug: 'synthetic-badminton-court',
-    image: '/assets/images/blogs/synthetic1.webp',
-  },
+  // {
+  //   title: 'Synthetic Badminton Court: Revolutionizing Sports Flooring with SportsFacility',
+  //   excerpt: 'SportsFacilitiy’s synthetic badminton court flooring is designed for durability and performance.',
+  //   date: 'August 3, 2025',
+  //   slug: 'synthetic-badminton-court',
+  //   image: '/assets/images/blogs/synthetic1.webp',
+  // },
 ];
 
 export const blogImages = [
-    "/assets/images/blog/fifa1.jpeg",
-    "/assets/images/blog/fifa2.jpeg",
-    "/assets/images/blog/cricket1.jpeg",
-    "/assets/images/blog/cricket2.jpeg",
-    "/assets/images/blog/synthetic1.webp",
+    "/assets/images/blogs/fifa1.jpeg",
+    "/assets/images/blogs/fifa2.jpeg",
+    "/assets/images/blogs/cricket1.jpeg",
+    "/assets/images/blogs/cricket2.jpeg",
+    "/assets/images/blogs/synthetic1.webp",
 ];

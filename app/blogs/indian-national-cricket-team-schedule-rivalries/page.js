@@ -3,19 +3,22 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <section className="max-w-4xl mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-6 text-center">
+      
+      <h1 className="text-4xl md:text-5xl font-extrabold mb-8 text-center leading-tight text-gray-900">
         🏏 India National Cricket Team: Complete Guide to Schedule, Matches & Rivalries of 2025
       </h1>
 
-      {/* <Image
-        src="/assets/images/india-cricket-team.jpg" // Make sure this image exists in your public/assets/images folder
-        alt="India National Cricket Team"
-        width={1200}
-        height={700}
-        className="w-full h-auto rounded-lg mb-8"
-      /> */}
+      <div className="rounded-xl overflow-hidden shadow-lg">
+        <Image
+          src="/assets/images/blogs/cricket2.jpeg"
+          alt="Indian cricket team celebrating T20 World Cup win"
+          width={1200}
+          height={600}
+          className="w-full h-80 md:h-[28rem] object-cover"
+          priority
+        />
+      </div>
 
-      <article className="prose max-w-none prose-lg prose-headings:text-2xl prose-p:leading-relaxed">
         <p>
           The India National Cricket Team is more than just a sports team or a player who represents India in a blue jersey — it’s a symbol of national pride, passion, and legacy. Whether it’s a fiery match with first-time world cup winners (2019) Ind vs Eng clash or a heart-stopping India vs Australia final—the powerhouses of the cricket world—the team unites over a billion fans in celebration and emotion.
         </p>
@@ -24,7 +27,9 @@ export default function Page() {
         </p>
 
         <h2>Latest India Cricket Schedule (2025–2026)</h2>
+
         <p>Fans have already marked their calendars. Here’s what the schedule looks like:</p>
+
         <table className="table-auto border-collapse w-full text-left border my-4">
           <thead>
             <tr>
@@ -68,34 +73,51 @@ export default function Page() {
           </tbody>
         </table>
 
-        <h2>India vs England – Rivals of the Modern Era</h2>
-        <ul>
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-blue-800 mb-4">
+          India vs England – Rivals of the Modern Era
+        </h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>India’s thrilling 151-run victory at Lord’s (2021)</li>
           <li>Rohit Sharma’s epic century at The Oval</li>
           <li>England’s Bazball dominance in the 2024 home series</li>
         </ul>
+      </section>
 
-        <h2>India vs Australia – The Real Test Rivalry</h2>
-        <ul>
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-orange-700 mb-4">
+          India vs Australia – The Real Test Rivalry
+        </h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>Gabba Test win (2021)</li>
           <li>2023 World Cup Final: Australia defeated India at home</li>
           <li>Virat Kohli’s century in Perth, 2024</li>
         </ul>
+      </section>
 
-        <h2>India vs Pakistan – The Eternal Clash</h2>
-        <p>
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-green-700 mb-4">
+          India vs Pakistan – The Eternal Clash
+        </h2>
+        <p className="text-gray-700 mb-4">
           Every ICC encounter becomes a global spectacle:
         </p>
-        <ul>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>Next: ICC Champions Trophy 2025</li>
           <li>Expected Venue: Lahore or Dubai</li>
           <li>World Cup Head-to-Head: India leads 8–0</li>
           <li>ODI Record: Pakistan leads 73–56</li>
         </ul>
+      </section>
 
-        <h2>Current Squad and Future Stars</h2>
-        <h3>Key Players:</h3>
-        <ul>
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-red-700 mb-4">
+          Current Squad and Future Stars
+        </h2>
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">
+          Key Players:
+        </h3>
+        <ul className="list-disc list-inside space-y-1 text-gray-700 mb-4">
           <li>Rohit Sharma (Captain)</li>
           <li>Virat Kohli</li>
           <li>Jasprit Bumrah</li>
@@ -103,36 +125,66 @@ export default function Page() {
           <li>Ravindra Jadeja</li>
           <li>Rishabh Pant</li>
         </ul>
-        <h3>Youngsters to Watch:</h3>
-        <ul>
+
+        <h3 className="text-xl font-semibold text-gray-800 mb-2">
+          Youngsters to Watch:
+        </h3>
+        <ul className="list-disc list-inside space-y-1 text-gray-700">
           <li>Yashasvi Jaiswal</li>
           <li>Rinku Singh</li>
           <li>Tilak Varma</li>
           <li>Arshdeep Singh</li>
         </ul>
+      </section>
 
-        <h2>#Fan Culture & Social Media Buzz</h2>
-        <p>During high-profile matches, hashtags and reels take over the internet:</p>
-        <ul>
-          <li>#INDvENG</li>
-          <li>#INDvAUS</li>
-          <li>#BleedBlue</li>
-          <li>#TeamIndia</li>
-        </ul>
-
-        <h2>Where to Watch India Matches Live</h2>
-        <ul>
-          <li><strong>TV:</strong> Star Sports, Sony Sports Network</li>
-          <li><strong>Streaming:</strong> JioCinema, Hotstar, SonyLIV</li>
-          <li><strong>Radio:</strong> AIR FM, BBC World Service</li>
-          <li><strong>Apps:</strong> BCCI.tv, ICC Mobile App</li>
-        </ul>
-
-        <h2>Final Word</h2>
-        <p>
-          With a rich legacy and massive global fan base, the India National Cricket Team continues to define the spirit of cricket. Stay tuned for more updates, scores, and stories as the 2025–2026 season unfolds.
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-purple-700 mb-4">
+          #Fan Culture & Social Media Buzz
+        </h2>
+        <p className="text-gray-700 mb-4">
+          During high-profile matches, hashtags and reels take over the internet:
         </p>
-      </article>
+        <div className="flex flex-wrap gap-3">
+          {["#INDvENG", "#INDvAUS", "#BleedBlue", "#TeamIndia"].map((tag) => (
+            <span
+              key={tag}
+              className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-indigo-700 mb-4">
+          Where to Watch India Matches Live
+        </h2>
+        <ul className="list-disc list-inside space-y-1 text-gray-700">
+          <li>
+            <strong>TV:</strong> Star Sports, Sony Sports Network
+          </li>
+          <li>
+            <strong>Streaming:</strong> JioCinema, Hotstar, SonyLIV
+          </li>
+          <li>
+            <strong>Radio:</strong> AIR FM, BBC World Service
+          </li>
+          <li>
+            <strong>Apps:</strong> BCCI.tv, ICC Mobile App
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Final Word</h2>
+        <p className="text-gray-700 leading-relaxed">
+          With a rich legacy and massive global fan base, the India National
+          Cricket Team continues to define the spirit of cricket. Stay tuned for
+          more updates, scores, and stories as the 2025–2026 season unfolds.
+        </p>
+      </section>
+
     </section>
   );
 }

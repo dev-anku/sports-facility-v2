@@ -8,13 +8,13 @@ export default function Page() {
         FIFA World Cup 2026: Schedule, Qualified Teams & Where to Watch
       </h1>
 
-      {/* <Image
-        src="/home/priyanshu/Desktop/sports/sports-facility-v2/public/assets/images/blogs/fifa2.jpeg"
-        alt="FIFA World Cup 2026 Preview"
-        width={1000}
-        height={600}
-        className="rounded-md w-full h-auto mb-6"
-      /> */}
+          <Image
+            src="/assets/images/blogs/fifa1.jpeg" // Make sure this image exists in your public/assets/images folder
+            alt="India National Cricket Team"
+            width={1200}
+            height={700}
+            className="w-full h-auto rounded-lg mb-8"
+          /> 
 
       <div className="space-y-4 text-lg leading-relaxed text-gray-800">
         <p>

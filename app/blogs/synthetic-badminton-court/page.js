@@ -7,13 +7,13 @@ export default function Page() {
         🏏 India National Cricket Team: Complete Guide to Schedule, Matches & Rivalries of 2025
       </h1>
 
-      {/* <Image
-        src="/assets/images/india-cricket-team.jpg" // Make sure this image exists in your public/assets/images folder
+      <Image
+        src="/assets/images/blogs/fifa1.jpeg" // Make sure this image exists in your public/assets/images folder
         alt="India National Cricket Team"
         width={1200}
         height={700}
         className="w-full h-auto rounded-lg mb-8"
-      /> */}
+      /> 
 
       <article className="prose max-w-none prose-lg prose-headings:text-2xl prose-p:leading-relaxed">
         <p>
